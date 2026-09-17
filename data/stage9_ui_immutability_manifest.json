@@ -1,0 +1,156 @@
+{
+  "base_commit": "796c05cd29a055188e86685990078709fca0bfbc",
+  "files": [
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": ".streamlit/config.toml",
+      "sha256": "3ac8abdbcd4420082338bc661014224ee1772f402d759434d7819d7a73a764e2"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "app/pages_and_components/__init__.py",
+      "sha256": "6f71ec4d00191b22000dab1d5662ebc93f455c4d57bc54f8f0182f5e7df5b054"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "app/pages_and_components/documents.py",
+      "sha256": "ddc9b03cdea010eb4d83c7fc6689689683c3e638e6b24cbd5555ffad31ed9e9c"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "app/pages_and_components/onboarding.py",
+      "sha256": "ef8a9bf0b88288f56d02f1f8207cd67a9cc37fd49c91e71d2a61d8313c794c8c"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "app/pages_and_components/rapid_stage9.py",
+      "sha256": "6d871dd3c854de0a5395250f41218c977a031b3499baa49628f5ad6300884ad0"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "app/pages_and_components/stage9.py",
+      "sha256": "2616e1f14440f87d61a84e0e06ad62121e959af76e6046c3229487c9fdc414b9"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "assets/stage9/week-24-journey.svg",
+      "sha256": "7128af7f19f23c5ac19c1fdb3364640364ffaf2ed647f51f9897beced3361674"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-compass-validated.png",
+      "sha256": "a3ee81e585c5ea813dec412eef1abe936ea87a7ad1520cad4bb3dd0fba899543"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-evaluator.png",
+      "sha256": "c5052849a1a9c1d4856473695fd7ace817b7740ec6f61eba4b894d87d2b3c7a9"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-evidence.png",
+      "sha256": "3ef611069266751d1a51f4678d56c83134cf3be938e3fea51de3ac131591f17a"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-home.png",
+      "sha256": "390d88069dea1eff1925675f407976795cb19fecdc1c4980edfea09308339589"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-plan.png",
+      "sha256": "3eab10d2dd06e9bda8968eeb9581b4c55d96225ba6bc422b4e33be01c9faf7d4"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-records.png",
+      "sha256": "d5a4331ebdd7744e192ea50dd13b73dce528ad83359441171488d71822547501"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/desktop-simulated-review.png",
+      "sha256": "4636189adedc37ce92e230b461fc252cd130a8d006b42f44dc5529436f52bdb4"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "docs/stage9-ui-evidence/keyboard-walkthrough.json",
+      "sha256": "8b6179de7e7ba677259e05823b1cb21a14ee3cce8149c64fe100091f4539799c"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/phone-home.png",
+      "sha256": "b915644aab4ede3d9e38d10b731c52febb50da8e2b468ec3ef68a47bf38426b6"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/phone-plan.png",
+      "sha256": "3965476a8494f492fb4d7434c82196ee9680f5aeef76ff5539bfc0e222883a88"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/phone-records.png",
+      "sha256": "560ab21a28b6419ab63368396bfb07ceb75e13645ab540bfee9bb608ac0e27bf"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/phone-urgent.png",
+      "sha256": "c7c1a369be678fb413ec8ba6a1288535667295a873c739dbb7647249f998ad1e"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-ask-maya.png",
+      "sha256": "bb0c0c316baad7a409f8c45f3eb81383f9c38cfbb421552e512d6e288877ff09"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-dashboard.png",
+      "sha256": "82cd6d9548a09591d894b409d2b2b729fd082a5b0d0abe87848b0bccae26415a"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-evidence.png",
+      "sha256": "a1a0e299bbc7eb50b8a5571fbb4d7470797a62060ff7a3c678bb5589c488067d"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-landing.png",
+      "sha256": "1d51ffee81af69b9d0bd4c3344d0f6e5e8a07a5410d642950c4d09077053c233"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-onboarding-review.png",
+      "sha256": "b1a332738998d2b2f89e3e3b8153161bbb1f7a8c890d04a1fdff93b758b7eed7"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-plan.png",
+      "sha256": "04386b169ebc0ac6149f20a4ffbf22e5d70aa719bd91969eb80b8086b02f5daa"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-records.png",
+      "sha256": "25216006df61d1f6ec17502804171a27a4d69577934b3f2e056fae2719c570ac"
+    },
+    {
+      "hash_mode": "raw_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-urgent.png",
+      "sha256": "4737f69c7a90ee44b93362d8065eecac327df2595fe0b7e8ace034098872075d"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "docs/stage9-ui-evidence/rapid-visual-inspection.json",
+      "sha256": "c0ebc663637c8e76be0830078ad379ecf0f12f9ef34a1d63b90980107e68c7da"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "docs/stage9-ui-evidence/visual-inspection.json",
+      "sha256": "23f880e50094a1d2957901661aa365c5910f5004b7eaa0d8e996ca1356a82333"
+    },
+    {
+      "hash_mode": "normalized_lf_sha256",
+      "path": "streamlit_app.py",
+      "sha256": "f0aa5fc61606c39fe5d0e41bf11e59518efe58ff0b5c3f69e13b4bc02a3010e8"
+    }
+  ],
+  "schema_version": "stage9-ui-immutability-v2"
+}

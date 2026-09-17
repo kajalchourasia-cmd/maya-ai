@@ -1,0 +1,466 @@
+{
+  "valid": true,
+  "stage": 9,
+  "schema_version": "9.0.0",
+  "dataset": "visible deterministic Stage 9 development set; sealed final holdout not accessed",
+  "fixture_only": true,
+  "clinical_validation": false,
+  "user_research": false,
+  "cases": {
+    "passed": 42,
+    "total": 42
+  },
+  "critical_cases": {
+    "passed": 29,
+    "total": 29
+  },
+  "by_domain": {
+    "compass": {
+      "passed": 7,
+      "total": 7
+    },
+    "evaluator": {
+      "passed": 2,
+      "total": 2
+    },
+    "persistence": {
+      "passed": 1,
+      "total": 1
+    },
+    "plan": {
+      "passed": 4,
+      "total": 4
+    },
+    "privacy": {
+      "passed": 4,
+      "total": 4
+    },
+    "rapid_ui": {
+      "passed": 4,
+      "total": 4
+    },
+    "records": {
+      "passed": 6,
+      "total": 6
+    },
+    "review": {
+      "passed": 7,
+      "total": 7
+    },
+    "safety": {
+      "passed": 2,
+      "total": 2
+    },
+    "shared_states": {
+      "passed": 1,
+      "total": 1
+    },
+    "weekly_home": {
+      "passed": 4,
+      "total": 4
+    }
+  },
+  "demo_stories": {
+    "passed": 9,
+    "total": 9
+  },
+  "urgent_zero_generation": {
+    "passed": 9,
+    "total": 9
+  },
+  "home_agent_fanout": 0,
+  "stage10_persistent_writes": 0,
+  "provider_live_runs": 0,
+  "latency_ms": {
+    "samples": 42,
+    "mean": 2.5283,
+    "maximum": 15.3378
+  },
+  "case_results": [
+    {
+      "case_id": "home_exact",
+      "domain": "weekly_home",
+      "critical": true,
+      "expected": "success",
+      "observed": "success",
+      "passed": true,
+      "latency_ms": 9.0937
+    },
+    {
+      "case_id": "home_approximate",
+      "domain": "weekly_home",
+      "critical": true,
+      "expected": "range",
+      "observed": "range",
+      "passed": true,
+      "latency_ms": 4.7298
+    },
+    {
+      "case_id": "home_zero_fanout",
+      "domain": "weekly_home",
+      "critical": true,
+      "expected": "0",
+      "observed": "0",
+      "passed": true,
+      "latency_ms": 4.9275
+    },
+    {
+      "case_id": "home_no_unreleased_size",
+      "domain": "weekly_home",
+      "critical": true,
+      "expected": "blocked",
+      "observed": "blocked",
+      "passed": true,
+      "latency_ms": 5.5047
+    },
+    {
+      "case_id": "personal_empty",
+      "domain": "privacy",
+      "critical": true,
+      "expected": "empty",
+      "observed": "empty",
+      "passed": true,
+      "latency_ms": 0.0295
+    },
+    {
+      "case_id": "demo_fictional",
+      "domain": "privacy",
+      "critical": true,
+      "expected": "fictional",
+      "observed": "fictional",
+      "passed": true,
+      "latency_ms": 6.0902
+    },
+    {
+      "case_id": "nutrition_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 15.3378
+    },
+    {
+      "case_id": "record_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 3.4663
+    },
+    {
+      "case_id": "medication_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 2.9233
+    },
+    {
+      "case_id": "movement_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 4.0103
+    },
+    {
+      "case_id": "wellbeing_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 3.6989
+    },
+    {
+      "case_id": "followup_chat",
+      "domain": "compass",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 3.2581
+    },
+    {
+      "case_id": "nutrition_plan",
+      "domain": "plan",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 4.484
+    },
+    {
+      "case_id": "movement_plan",
+      "domain": "plan",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 5.3091
+    },
+    {
+      "case_id": "wellbeing_plan",
+      "domain": "plan",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 5.2408
+    },
+    {
+      "case_id": "holistic_plan",
+      "domain": "plan",
+      "critical": true,
+      "expected": "validated",
+      "observed": "validated",
+      "passed": true,
+      "latency_ms": 7.1991
+    },
+    {
+      "case_id": "urgent_bypass",
+      "domain": "safety",
+      "critical": true,
+      "expected": "urgent",
+      "observed": "urgent",
+      "passed": true,
+      "latency_ms": 2.3395
+    },
+    {
+      "case_id": "symptom_clarification",
+      "domain": "safety",
+      "critical": true,
+      "expected": "clarification",
+      "observed": "clarification",
+      "passed": true,
+      "latency_ms": 2.0463
+    },
+    {
+      "case_id": "unsupported_intent",
+      "domain": "compass",
+      "critical": false,
+      "expected": "unsupported",
+      "observed": "unsupported",
+      "passed": true,
+      "latency_ms": 2.3191
+    },
+    {
+      "case_id": "record_ready",
+      "domain": "records",
+      "critical": false,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.083
+    },
+    {
+      "case_id": "record_low_confidence",
+      "domain": "records",
+      "critical": true,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.0561
+    },
+    {
+      "case_id": "record_conflict",
+      "domain": "records",
+      "critical": true,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.0513
+    },
+    {
+      "case_id": "record_locked",
+      "domain": "records",
+      "critical": false,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.0498
+    },
+    {
+      "case_id": "record_corrupt",
+      "domain": "records",
+      "critical": false,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.049
+    },
+    {
+      "case_id": "record_unsupported",
+      "domain": "records",
+      "critical": false,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.0486
+    },
+    {
+      "case_id": "record_wrong_person",
+      "domain": "privacy",
+      "critical": true,
+      "expected": "present",
+      "observed": "present",
+      "passed": true,
+      "latency_ms": 0.0481
+    },
+    {
+      "case_id": "review_offered",
+      "domain": "review",
+      "critical": false,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0118
+    },
+    {
+      "case_id": "review_consented",
+      "domain": "review",
+      "critical": false,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0059
+    },
+    {
+      "case_id": "review_queued",
+      "domain": "review",
+      "critical": false,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0046
+    },
+    {
+      "case_id": "review_responded",
+      "domain": "review",
+      "critical": false,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0039
+    },
+    {
+      "case_id": "review_declined",
+      "domain": "review",
+      "critical": false,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0039
+    },
+    {
+      "case_id": "review_unavailable",
+      "domain": "review",
+      "critical": true,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0039
+    },
+    {
+      "case_id": "review_timed_out",
+      "domain": "review",
+      "critical": true,
+      "expected": "simulated",
+      "observed": "simulated",
+      "passed": true,
+      "latency_ms": 0.0039
+    },
+    {
+      "case_id": "evaluator_artifacts",
+      "domain": "evaluator",
+      "critical": false,
+      "expected": "4",
+      "observed": "4",
+      "passed": true,
+      "latency_ms": 1.8912
+    },
+    {
+      "case_id": "authentic_failed_trace",
+      "domain": "evaluator",
+      "critical": false,
+      "expected": "55/62",
+      "observed": "55/62",
+      "passed": true,
+      "latency_ms": 0.2992
+    },
+    {
+      "case_id": "demo_reset_isolation",
+      "domain": "privacy",
+      "critical": true,
+      "expected": "isolated",
+      "observed": "isolated",
+      "passed": true,
+      "latency_ms": 0.0089
+    },
+    {
+      "case_id": "all_view_states",
+      "domain": "shared_states",
+      "critical": false,
+      "expected": "8",
+      "observed": "8",
+      "passed": true,
+      "latency_ms": 0.0046
+    },
+    {
+      "case_id": "no_stage10_writes",
+      "domain": "persistence",
+      "critical": true,
+      "expected": "0",
+      "observed": "0",
+      "passed": true,
+      "latency_ms": 11.5386
+    },
+    {
+      "case_id": "rapid_surface_inventory",
+      "domain": "rapid_ui",
+      "critical": true,
+      "expected": "9",
+      "observed": "9",
+      "passed": true,
+      "latency_ms": 0.0042
+    },
+    {
+      "case_id": "rapid_dashboard_tabs",
+      "domain": "rapid_ui",
+      "critical": true,
+      "expected": "8",
+      "observed": "8",
+      "passed": true,
+      "latency_ms": 0.0025
+    },
+    {
+      "case_id": "rapid_ask_maya_name",
+      "domain": "rapid_ui",
+      "critical": true,
+      "expected": "Ask Maya",
+      "observed": "Ask Maya",
+      "passed": true,
+      "latency_ms": 0.0016
+    },
+    {
+      "case_id": "rapid_suggestion_inventory",
+      "domain": "rapid_ui",
+      "critical": true,
+      "expected": "6",
+      "observed": "6",
+      "passed": true,
+      "latency_ms": 0.0054
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Component checks and internal walkthroughs are not external usability research.",
+    "Fixture-only Stage 7/8 output does not establish production retrieval or clinical quality.",
+    "Automated structure checks do not prove WCAG conformance.",
+    "Stage 10 durable plan/fact/review writes and deployment remain unavailable."
+  ]
+}

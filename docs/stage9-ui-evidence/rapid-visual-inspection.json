@@ -1,0 +1,89 @@
+{
+  "schema_version": "stage9-rapid-ui-evidence-v1",
+  "valid": true,
+  "captured_at": "2026-09-12T17:15:00+05:30",
+  "capture_method": "Local headless Chrome against streamlit_app.py on localhost; fictional/redacted data only.",
+  "screenshots": [
+    {
+      "view": "Landing",
+      "path": "docs/stage9-ui-evidence/rapid-landing.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Onboarding review",
+      "path": "docs/stage9-ui-evidence/rapid-onboarding-review.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Dashboard",
+      "path": "docs/stage9-ui-evidence/rapid-dashboard.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Ask Maya",
+      "path": "docs/stage9-ui-evidence/rapid-ask-maya.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Plan",
+      "path": "docs/stage9-ui-evidence/rapid-plan.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Records",
+      "path": "docs/stage9-ui-evidence/rapid-records.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Evidence",
+      "path": "docs/stage9-ui-evidence/rapid-evidence.png",
+      "fictional_or_empty": true,
+      "evidence_scope": "current rapid integration"
+    },
+    {
+      "view": "Urgent safety",
+      "path": "docs/stage9-ui-evidence/rapid-urgent.png",
+      "fictional_or_empty": true,
+      "ordinary_generation_calls": 0,
+      "evidence_scope": "current rapid integration"
+    },
+    "desktop-compass-validated.png",
+    "desktop-evaluator.png",
+    "desktop-evidence.png",
+    "desktop-home.png",
+    "desktop-plan.png",
+    "desktop-records.png",
+    "desktop-simulated-review.png",
+    "phone-home.png",
+    "phone-plan.png",
+    "phone-records.png",
+    "phone-urgent.png"
+  ],
+  "responsive_checks": {
+    "desktop_1440x1200": {
+      "passed": true,
+      "clipped": false
+    },
+    "critical_action_visibility": {
+      "passed": true,
+      "clipped": false
+    }
+  },
+  "interaction_evidence": {
+    "checker": "python -m scripts.check_stage9_ui",
+    "surfaces": 9,
+    "suggestions_fill_without_submit": true,
+    "urgent_zero_generation": true
+  },
+  "limitations": [
+    "The in-app browser runtime could not start under the Windows ACL helper; the repository-local headless Chrome capture path was used.",
+    "This rapid pass does not claim final responsive polish, WCAG conformance, clinical usability, or external user research."
+  ],
+  "evidence_count": 19
+}

@@ -1,0 +1,34 @@
+{
+  "checks": 26,
+  "concurrency": {
+    "fact_vs_activate": {
+      "attempts": 2,
+      "committed": 1,
+      "rejected": 1,
+      "winner": "activate"
+    },
+    "fact_vs_save": {
+      "attempts": 2,
+      "committed": 1,
+      "rejected": 1,
+      "winner": "save"
+    },
+    "plan_save": {
+      "attempts": 2,
+      "committed": 1,
+      "rejected": 1
+    }
+  },
+  "concurrency_transport": "simultaneous_authenticated_http_rpc_requests",
+  "external_actions": 0,
+  "fixture_cleanup_requested": true,
+  "http_api_matrix_verified_separately": true,
+  "old_idempotency_replay_after_reset": false,
+  "principals": 2,
+  "product_calls_used_authenticated_jwt": true,
+  "response_loss_replay": true,
+  "same_key_cross_workspace_isolated": true,
+  "stage": 10,
+  "valid": true,
+  "workspace_reset_public_tables_checked": 10
+}

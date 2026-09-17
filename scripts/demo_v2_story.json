@@ -1,0 +1,19 @@
+[
+  {"id":"landing","seconds":5,"text":"Motherhood brings a thousand questions. Maya brings them into one supportive space."},
+  {"id":"onboarding","seconds":12,"text":"Let's begin with Jenny. Pregnancy or postpartum; week, month, or due date. She chooses week twenty-two, then adds vegetarian preferences, a dairy allergy, and heartburn. Her journey now has context."},
+  {"id":"kpis","seconds":10,"text":"Four priorities: her pregnancy stage; iron and calcium for nutrition; a pause to recharge for energy; and comfort and balance for movement. A clearer place to start."},
+  {"id":"rhythm","seconds":6,"text":"Her body's changing rhythm explains illustrative hormone patterns, with a little attention to her, too."},
+  {"id":"growth","seconds":6,"text":"Then, a little wonder: a grapefruit-sized glimpse, approximate measurements, and a discovery about her baby."},
+  {"id":"this-week","seconds":4,"text":"But what does she do next? This Week gathers her priorities."},
+  {"id":"nutrition","seconds":6,"text":"Nutrition turns source-linked guidance into food choices, with nutrient references and her dairy allergy clearly in view."},
+  {"id":"movement","seconds":4,"text":"Movement makes staying active more approachable, with practical options and adaptations."},
+  {"id":"support","seconds":5,"text":"Symptoms start with her heartburn; self-love makes room for her; FAQs answer common questions."},
+  {"id":"plan","seconds":11,"text":"Select Balanced Week. Build the plan. Maya brings meals, movement, and self-care into one Monday-to-Sunday view, helping Jenny turn guidance into an everyday routine."},
+  {"id":"chat-intro","seconds":3,"text":"Questions don't follow a timetable. Open Ask Maya."},
+  {"id":"allergy","seconds":10,"text":"First, meal options with her allergy. Retrieval-augmented generation uses relevant passages from our knowledge library, alongside her context. The response includes source references."},
+  {"id":"vegan","seconds":8,"text":"Make those vegan. This follow-up continues the same conversation, without asking Jenny to repeat her story."},
+  {"id":"heartburn","seconds":8,"text":"Next, her reported heartburn. Practical comfort measures come with signs that deserve medical attention."},
+  {"id":"urgent","seconds":7,"text":"Now an urgent question. Maya stops ordinary advice and directs her to immediate medical help."},
+  {"id":"secrets","seconds":7,"text":"Finally, an API-key request. Maya refuses to disclose credentials: support, with clear boundaries."},
+  {"id":"closing","seconds":3.7,"text":"Maya. A clearer next step—and room for wonder."}
+]

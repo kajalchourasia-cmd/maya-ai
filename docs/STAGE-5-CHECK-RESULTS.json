@@ -1,0 +1,175 @@
+{
+  "valid": true,
+  "stage": 5,
+  "schema_version": "5.0.0",
+  "fixture_only": true,
+  "paid_model_required": false,
+  "ready_for_independent_re_review": true,
+  "ready_for_stage6_engineering": false,
+  "stage6_gate": "independent Stage 5 re-review is still required",
+  "ready_for_public_or_clinical_release": false,
+  "verified": {
+    "typed_contracts": 20,
+    "development_cases": 28,
+    "fixture_public_records": 20,
+    "fixture_personal_fact_records": 6,
+    "fixture_graph_paths": 2,
+    "tracked_weekly_profiles": 63,
+    "published_weekly_profiles": 0,
+    "pinned_pgtap_assertions": 254,
+    "stage5_pgtap_assertions": 48,
+    "authenticated_stage5_api_checks": 25,
+    "stage5_python_tests": 56,
+    "cache_matrix_cases": 10,
+    "policy_rejection_cases": 10,
+    "contract_mutation_cases": 17,
+    "generic_conflict_cases": 6,
+    "generic_missing_cases": 6,
+    "final_answerability_cases": 23,
+    "trusted_journey_cases": 12,
+    "pairwise_conflict_cases": 36,
+    "pairwise_missing_cases": 36,
+    "packet_inventory_cases": 26,
+    "graph_trace_failure_cases": 26,
+    "valid_policy_packet_cases": 4,
+    "total_rectification_matrix_cases": 212
+  },
+  "retrieval_gate": {
+    "recall_at_5": true,
+    "citation_precision": true,
+    "no_wrong_week": true,
+    "no_wrong_jurisdiction": true,
+    "no_unapproved_source": true,
+    "no_cross_workspace_leakage": true,
+    "confirmed_personal_precision": true,
+    "no_proposal_personalization": true,
+    "graph_truth": true,
+    "behavior_truth": true,
+    "support_truth": true,
+    "journey_truth": true,
+    "graph_ablation": true,
+    "sql_no_false_graph_claim": true,
+    "ranking_trial_not_adopted": true,
+    "rectification_matrix": true
+  },
+  "adopted_metrics": {
+    "recall_at_5": {
+      "value": 1.0,
+      "numerator": 18,
+      "denominator": 18
+    },
+    "citation_evidence_precision": {
+      "value": 1.0,
+      "numerator": 18,
+      "denominator": 18
+    },
+    "wrong_week_retrieval_count": 0,
+    "wrong_jurisdiction_retrieval_count": 0,
+    "unapproved_source_retrieval_count": 0,
+    "cross_workspace_leakage_count": 0,
+    "confirmed_personal_fact_precision": {
+      "value": 1.0,
+      "numerator": 12,
+      "denominator": 12
+    },
+    "conflict_proposal_personalization_violations": 0,
+    "graph_path_correctness": {
+      "value": 1.0,
+      "numerator": 1,
+      "denominator": 1
+    },
+    "expected_behavior_accuracy": {
+      "value": 1.0,
+      "numerator": 28,
+      "denominator": 28
+    },
+    "support_state_accuracy": {
+      "value": 1.0,
+      "numerator": 28,
+      "denominator": 28
+    },
+    "journey_relation_accuracy": {
+      "value": 1.0,
+      "numerator": 28,
+      "denominator": 28
+    },
+    "forbidden_evidence_ids_seen": [],
+    "latency_ms_by_component": {
+      "exact_sql": {
+        "count": 28,
+        "mean": 0.133504,
+        "max": 0.2167
+      },
+      "graph": {
+        "count": 28,
+        "mean": 0.00345,
+        "max": 0.0807
+      },
+      "personal_full_text": {
+        "count": 28,
+        "mean": 0.056704,
+        "max": 0.1073
+      },
+      "personal_vector": {
+        "count": 28,
+        "mean": 0.052939,
+        "max": 0.1076
+      },
+      "public_full_text": {
+        "count": 28,
+        "mean": 0.472464,
+        "max": 0.9506
+      },
+      "public_vector": {
+        "count": 28,
+        "mean": 0.407361,
+        "max": 0.8185
+      },
+      "weekly_profile": {
+        "count": 28,
+        "mean": 0.001225,
+        "max": 0.0031
+      }
+    }
+  },
+  "graph_ablation": {
+    "graph_required_case": "S5-GRAPH-ON-001",
+    "with_graph": [
+      "PATH-DOC-RESTRICTION-STALE-PLAN"
+    ],
+    "without_graph": [],
+    "adds_required_relationship_information": true,
+    "sql_sufficient_case": "S5-PERSONAL-ALLERGY-001",
+    "sql_answer_same_with_graph_on_and_off": true,
+    "sql_sufficient_case_claims_graph_benefit": false,
+    "ranking_trial_adopted": false
+  },
+  "honest_limitation": "Deterministic fixture embeddings and 28 synthetic questions verify control flow, isolation and filters; they do not establish production retrieval quality.",
+  "open_gates": [
+    {
+      "owner": "independent reviewer",
+      "gate": "re-review Stage 5 rectification"
+    },
+    {
+      "owner": "clinical and India-localisation reviewers",
+      "gate": "approve health content and safety material"
+    },
+    {
+      "owner": "licence reviewer",
+      "gate": "approve reuse and embedding rights"
+    },
+    {
+      "owner": "product reviewer",
+      "gate": "complete rendered UI and public release decisions"
+    },
+    {
+      "owner": "Stage 6 engineering/reviewers",
+      "gate": "implement and review Safety Gate"
+    },
+    {
+      "owner": "platform/product",
+      "gate": "benchmark production embedding provider"
+    }
+  ],
+  "errors": []
+}

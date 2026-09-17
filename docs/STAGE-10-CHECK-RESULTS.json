@@ -1,0 +1,28 @@
+{
+  "clinical_validation": false,
+  "database_migration_required": true,
+  "errors": [],
+  "external_delivery_enabled": false,
+  "limitations": [
+    "Controlled fictional fixtures do not prove clinical or production quality.",
+    "The public safety/content review gates remain open.",
+    "External reminders, real clinician review, deployment, and the sealed holdout remain unrun."
+  ],
+  "paid_provider_required": false,
+  "public_release_ready": false,
+  "remote_migration_applied": false,
+  "schema_version": "10.0.0",
+  "stage": 10,
+  "valid": true,
+  "verified": {
+    "authenticated_api_checks": 14,
+    "capstone_story_runs": 9,
+    "command_kinds": 7,
+    "concurrency_and_deletion_checks": 26,
+    "external_transmissions": 0,
+    "plan_lifecycle_states": 7,
+    "review_states": 9,
+    "typed_development_cases": 33,
+    "urgent_generation_calls": 0
+  }
+}

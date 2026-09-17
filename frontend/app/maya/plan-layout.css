@@ -1,0 +1,82 @@
+/* Scoped refinement: leave the other dashboard categories and their layout alone. */
+.plan-layout.plan-layout-wide{grid-template-columns:minmax(0,1fr);padding-top:32px}
+.plan-layout-wide>aside{display:none}
+.plan-layout-wide .connected-plan{max-width:none;margin:0;padding:28px;border-radius:22px;background:#fffdfd;box-shadow:none}
+.connected-plan>header{padding:8px 0 24px;border-bottom:1px solid #ede4eb;margin-bottom:22px}
+.connected-plan .plan-actions{padding:14px 16px;border:1px solid #e8deeb;border-radius:14px;background:#faf6fc}
+.connected-plan .plan-actions select{border:1px solid #e1d5e6;border-radius:9px;padding:9px 12px;background:#fff;color:#765879}
+.connected-plan .plan-result-label{display:inline-flex;background:#f0e8f4;border-radius:20px;padding:7px 12px;margin:0 0 8px}
+.connected-plan .constraint-strip{margin:16px 0;padding:12px 16px;border-radius:12px;background:#f7f4f8;font-size:12px;line-height:1.6}
+.weekly-schedule>.plan-nutrient-guide{margin:16px 0 24px;padding:20px;border:1px solid #e7dfeb;border-radius:16px;background:#fbf9fc}
+.connected-plan>.connected-result{border-top:0;padding-top:0}
+.plan-nutrient-guide>header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}
+.plan-nutrient-guide h4{font-size:14px;color:#715773;margin:0}.plan-nutrient-guide>header>span{font-size:10px;color:#8e7a8d}
+.plan-nutrient-guide>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.plan-nutrient-guide article{padding:12px;border-radius:10px;background:#fff;border:1px solid #eee7f0;min-width:0}
+.plan-nutrient-guide article>span{font-size:11px;color:#8d7287;display:block}.plan-nutrient-guide article>b{display:block;margin:7px 0;font-size:18px;font-weight:550;color:#674e6c}
+.plan-nutrient-guide details{font-size:10px;color:#8c7a8c}.plan-nutrient-guide summary{cursor:pointer}.plan-nutrient-guide details p{font-size:11px;line-height:1.6}.plan-nutrient-guide details a{display:block;text-decoration:underline}
+.plan-nutrient-guide>p{font-size:11px!important;line-height:1.6;color:#877383;margin:14px 0 0}
+html[data-maya-theme=purple] :is(.connected-plan .plan-actions,.plan-nutrient-guide,.plan-nutrient-guide article){background:#30243c;border-color:#4e3d5f;color:#d7c3df}
+html[data-maya-theme=purple] :is(.plan-nutrient-guide h4,.plan-nutrient-guide article>b){color:#eadced}
+@media(max-width:760px){.plan-nutrient-guide>div{grid-template-columns:repeat(2,minmax(0,1fr))}.plan-nutrient-guide>header{display:block}.plan-nutrient-guide>header>span{display:block;margin-top:6px}}
+.connected-plan>header>div>p{font-size:13px;line-height:1.6;color:#80717b;margin:9px 0 0}
+.connected-plan .connected-result>.plan-result-label{font-size:13px;font-weight:650;color:#725567}
+.week-highlight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.week-highlight-grid>article{padding:23px;border:1px solid #e9e3e4;border-radius:18px;background:#fffdfa;display:flex;flex-direction:column}
+.week-highlight-grid>article>span{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:650;color:#8d712f}
+.week-highlight-grid svg{width:16px;height:16px}
+.week-highlight-grid [data-category=movement]>span{color:#5c7a62}
+.week-highlight-grid [data-category=symptoms]>span{color:#b06e7e}
+.week-highlight-grid [data-category=wellbeing]>span{color:#8670a1}
+.week-highlight-grid h3{font:500 23px/1.3 Georgia,serif;margin:16px 0 9px;color:#503c49}
+.week-highlight-grid p{font-size:13px;line-height:1.7;color:#7c6c76;margin:0 0 19px}
+.week-highlight-grid button{display:flex;align-items:center;gap:8px;align-self:flex-start;margin-top:auto;border:0;background:none;color:#745267;padding:0;font-size:12px;font-weight:600;cursor:pointer}
+.week-plan-invitation{margin-top:18px;padding:24px;border:1px solid #e5dce8;border-radius:18px;background:#f6f1f8;display:flex;align-items:center;gap:22px;justify-content:space-between}
+.week-plan-invitation span{display:flex;align-items:center;gap:7px;font-size:9px;letter-spacing:.09em;color:#8a6c98;font-weight:700}
+.week-plan-invitation svg{width:15px;height:15px;flex-shrink:0}
+.week-plan-invitation h3{font:500 22px/1.3 Georgia,serif;margin:10px 0;color:#5d435f}
+.week-plan-invitation p{font-size:12px;color:#87758a;line-height:1.7;margin:0}
+.week-plan-invitation button{border:0;border-radius:12px;background:#6b4a70;color:#fff;padding:13px 16px;display:flex;align-items:center;gap:10px;font-size:12px;font-weight:600;flex-shrink:0;cursor:pointer;max-width:100%}
+.weekly-schedule{display:block!important;margin:22px 0;color:#62535d}
+.schedule-table-wrap{max-width:100%;overflow-x:auto;border:1px solid #e8e0e5;border-radius:16px;background:#fff;scrollbar-width:thin}
+.schedule-table-wrap:focus-visible{outline:2px solid #947a9b;outline-offset:3px}
+.schedule-table{width:100%;border-collapse:separate;border-spacing:0;font:400 12px/1.65 "Segoe UI",Arial,sans-serif;table-layout:fixed;min-width:670px}
+.schedule-table caption{padding:14px 18px;text-align:left;font-size:11px;color:#8a7282;background:#fff}
+.schedule-table th,.schedule-table td{padding:17px 16px;vertical-align:top;text-align:left;border-top:1px solid #ece5e8;border-right:1px solid #f1ebee;overflow-wrap:anywhere}
+.schedule-table th:last-child,.schedule-table td:last-child{border-right:0}
+.schedule-table thead th{background:#f5eff4;color:#70566a;font-size:12px;font-weight:650}
+.schedule-table th:first-child{width:112px;position:sticky;left:0;z-index:1;background:#faf6f8;color:#765c6d;font-size:12px}
+.schedule-table tbody tr:nth-child(even) td{background:#fefbfc}
+.schedule-table td p{margin:0;color:#62555e;font-size:12px;line-height:1.7}
+.schedule-table td p+p{margin-top:10px}
+.schedule-unassigned{color:#a0949b;font-size:11px}
+.schedule-meal-note{font-size:12px;line-height:1.6;color:#84717e;margin:0 0 15px}
+.meal-options small{font-size:9px;letter-spacing:.08em;color:#99798c}
+.meal-options ul{list-style:none;margin:8px 0 0;padding:0}
+.meal-options li{font-size:13px;line-height:1.6;color:#665461;padding:5px 0;position:relative;padding-left:12px}
+.meal-options li:before{content:'';width:4px;height:4px;border-radius:50%;background:#c6adba;position:absolute;left:0;top:13px}
+html[data-maya-theme=purple] .meal-options li{color:#d4c1dd}
+.schedule-mobile{display:none}
+.schedule-everyday{margin:20px 0;border-top:1px solid #ece3e8;padding-top:19px}
+.schedule-everyday>h4{font-size:13px;color:#70546a;margin:0 0 12px}
+.schedule-everyday>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.schedule-everyday article{padding:17px;border-radius:12px;background:#f7f4f6}
+.schedule-everyday article>b{font-size:12px;font-weight:650;color:#77616f}
+.schedule-everyday article>p{font-size:12px;line-height:1.7;margin:8px 0 0;color:#81727b}
+.chat .schedule-table-wrap{display:none}
+.chat .schedule-mobile{display:grid}
+.chat .schedule-everyday>div{grid-template-columns:1fr}
+.schedule-mobile{gap:16px}
+.schedule-mobile>article{border:1px solid #e8e0e5;border-radius:15px;padding:18px;background:#fff}
+.schedule-mobile h4{font-size:15px;color:#745267;margin:0 0 10px}
+.schedule-mobile section{padding:12px 0;border-top:1px solid #eee7eb}
+.schedule-mobile section>b{font-size:11px;font-weight:650;color:#947089}
+.schedule-mobile section>p{font-size:13px;line-height:1.65;color:#6f606a;margin:7px 0 0}
+@media(max-width:1000px){.week-plan-invitation{flex-direction:column;align-items:flex-start}.schedule-everyday>div{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.plan-layout-wide .connected-plan{padding:20px 16px;margin:0}.week-highlight-grid{grid-template-columns:1fr}.schedule-table-wrap{display:none}.schedule-mobile{display:grid}.schedule-everyday>div{grid-template-columns:1fr}}
+html[data-maya-theme=purple] :is(.week-highlight-grid>article,.plan-layout-wide .connected-plan,.schedule-mobile>article,.schedule-table-wrap,.schedule-table caption){background:#281f33;border-color:#4a3a55;color:#d9c9e0}
+html[data-maya-theme=purple] :is(.week-highlight-grid h3,.week-highlight-grid button,.week-plan-invitation h3,.schedule-everyday>h4,.schedule-mobile h4){color:#e9d7ef}
+html[data-maya-theme=purple] :is(.week-highlight-grid p,.week-plan-invitation p,.connected-plan>header>div>p,.schedule-mobile section>p,.schedule-everyday article>p,.schedule-table td p){color:#c4b4ce}
+html[data-maya-theme=purple] :is(.week-plan-invitation,.schedule-everyday article,.schedule-table th:first-child,.schedule-table thead th){background:#34283f;color:#e4cee9;border-color:#4a3a55}
+html[data-maya-theme=purple] .schedule-table tbody tr:nth-child(even) td{background:#2d2237}
+html[data-maya-theme=purple] :is(.schedule-table th,.schedule-table td,.schedule-mobile section,.schedule-everyday){border-color:#4a3a55}

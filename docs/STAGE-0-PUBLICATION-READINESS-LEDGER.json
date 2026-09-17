@@ -1,0 +1,4631 @@
+{
+  "counts": {
+    "comparisons": 42,
+    "content_accepted_profiles": 3,
+    "display_eligible_comparisons": 0,
+    "guidance_fragments": 56,
+    "product_accepted_profiles": 3,
+    "profiles": 63,
+    "publication_eligible_profiles": 0,
+    "published_profiles": 0,
+    "source_spans": 55,
+    "sources": 31
+  },
+  "demonstration_slice": [
+    "PC00",
+    "P10",
+    "PP01"
+  ],
+  "generated_from": [
+    "data/weekly/weekly_content_manifest.jsonl",
+    "data/guidelines/guidance_fragments.jsonl",
+    "data/guidelines/section_manifest.jsonl",
+    "data/guidelines/source_registry.csv",
+    "data/reviews/ingestion_decisions.json",
+    "data/catalogues/fetal_size_comparisons.csv"
+  ],
+  "human_authority_truth": {
+    "clinical": "pending",
+    "india_localisation": "pending",
+    "licence": "pending where registry is not fully permitted/current",
+    "product_content": "accepted only where governed Kajal decisions exist"
+  },
+  "profiles": [
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Intentional non-size state",
+        "illustrative_only": true,
+        "item_id": "SIZE-P01",
+        "measurement_basis": "Special state; no size claim",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [
+        "journey"
+      ],
+      "fragment_ids": [
+        "F-DATING"
+      ],
+      "journey_state": {
+        "end": 1,
+        "stage": "pregnancy",
+        "start": 1,
+        "unit": "week"
+      },
+      "profile_id": "P01",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [
+        "E-DATING"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-STAGES",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-DATING",
+          "locator": "Introduction / gestational dating clause / expanded supporting unit",
+          "page": null,
+          "source_id": "OWH-STAGES",
+          "status": "draft",
+          "text_checksum": "562016bfaa838fe5260a512faea8f68e92809999b5dff896a1002ff85481c42d"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Intentional non-size state",
+        "illustrative_only": true,
+        "item_id": "SIZE-P02",
+        "measurement_basis": "Special state; no size claim",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 2,
+        "stage": "pregnancy",
+        "start": 2,
+        "unit": "week"
+      },
+      "profile_id": "P02",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P03",
+        "measurement_basis": "Length; conditional",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 3,
+        "stage": "pregnancy",
+        "start": 3,
+        "unit": "week"
+      },
+      "profile_id": "P03",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P04",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 4,
+        "stage": "pregnancy",
+        "start": 4,
+        "unit": "week"
+      },
+      "profile_id": "P04",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P05",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 5,
+        "stage": "pregnancy",
+        "start": 5,
+        "unit": "week"
+      },
+      "profile_id": "P05",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P06",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 6,
+        "stage": "pregnancy",
+        "start": 6,
+        "unit": "week"
+      },
+      "profile_id": "P06",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P07",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 7,
+        "stage": "pregnancy",
+        "start": 7,
+        "unit": "week"
+      },
+      "profile_id": "P07",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P08",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 8,
+        "stage": "pregnancy",
+        "start": 8,
+        "unit": "week"
+      },
+      "profile_id": "P08",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P09",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [
+        "followup",
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "symptoms",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-FOOD-HYGIENE",
+        "F-IN-ANC-TESTS",
+        "F-IN-BIRTH-PLAN",
+        "F-IN-FOOD",
+        "F-IN-FOOD-GRAINS",
+        "F-IN-FOOD-GREENS",
+        "F-IN-REGISTRATION",
+        "F-MOVEMENT-CONSULT",
+        "F-P09-DEVELOPMENT",
+        "F-PREG-ENJOY",
+        "F-PREG-FOOD-AVOID",
+        "F-PREG-MEDICINE-BOUNDARY",
+        "F-PREG-MOVEMENT-OPTIONS",
+        "F-PREG-MOVEMENT-PACE",
+        "F-PREG-MOVEMENT-STOP",
+        "F-PREG-TALK"
+      ],
+      "journey_state": {
+        "end": 9,
+        "stage": "pregnancy",
+        "start": 9,
+        "unit": "week"
+      },
+      "profile_id": "P09",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "partial",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "partial",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-FOOD-HYGIENE",
+        "E-IN-ANC-TESTS",
+        "E-IN-BIRTH-PLAN",
+        "E-IN-FOOD",
+        "E-IN-FOOD-GRAINS",
+        "E-IN-FOOD-GREENS",
+        "E-IN-REGISTRATION",
+        "E-MOVEMENT-CONSULT",
+        "E-P09-DEVELOPMENT",
+        "E-PREG-ENJOY",
+        "E-PREG-FOOD-AVOID",
+        "E-PREG-MEDICINE-BOUNDARY",
+        "E-PREG-MOVEMENT-OPTIONS",
+        "E-PREG-MOVEMENT-PACE",
+        "E-PREG-MOVEMENT-STOP",
+        "E-PREG-TALK"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "display"
+          ],
+          "attribution_text": "Better Health Channel, State Government of Victoria. Pregnancy - week by week (reviewed 28 February 2012; accessed 10 September 2026).",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "BHC-WEEKS",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PREG-MIND",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-HEALTH",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-FOOD-HYGIENE",
+          "locator": "Food safety / produce bullet",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3ddc83519fe47398343639ac3b08369ebb8bc5b4c2fbc7c8927abc9788e21fa4"
+        },
+        {
+          "evidence_id": "E-IN-ANC-TESTS",
+          "locator": "Page 11 / 3.1 / testing bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "d9f303e89d37059eaa09382d842666b9a28942428c58274666e6e5795a24be59"
+        },
+        {
+          "evidence_id": "E-IN-BIRTH-PLAN",
+          "locator": "Page 11 / section 3.1 / birth planning bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "0d791402ed05f7aad9eb7393f65c314a7744b55eb0421f4b83db0d4a1929d40b"
+        },
+        {
+          "evidence_id": "E-IN-FOOD",
+          "locator": "Page 10 / bottom banner opening",
+          "page": 10,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "e6083b567e31ea239462eae67a7678ae77d78cb29d3ed6b107e556b6487ca5a2"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GRAINS",
+          "locator": "Page 9 / cereals and pulses sentence",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "361c352fe6b521dac4396541312c0712a2a95fb2efe6b184aa44514b54de443e"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GREENS",
+          "locator": "Page 9 / leafy-vegetables bullet",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "dd3b6b46021139783a8e9001214aa5ae644faa28ccd3c688a31354a32fd423e7"
+        },
+        {
+          "evidence_id": "E-IN-REGISTRATION",
+          "locator": "Page 11 / 3.1 / registration bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "a2d9a58564a5dc4f39ef96d2b0c66b95fbeb624856b00697b2fb0cb35407d97e"
+        },
+        {
+          "evidence_id": "E-MOVEMENT-CONSULT",
+          "locator": "Getting started / consultation sentence",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "8f59b0762689747466982380bbfb4f233c5b10b7e6e8f91e0402f631ef74cee6"
+        },
+        {
+          "evidence_id": "E-P09-DEVELOPMENT",
+          "locator": "Pregnancy week 9 / first sentence",
+          "page": null,
+          "source_id": "BHC-WEEKS",
+          "status": "draft",
+          "text_checksum": "dd0daeab92923ce8fc5496b6e42531ba33ecbf83332eeae3682f1006e6431d09"
+        },
+        {
+          "evidence_id": "E-PREG-ENJOY",
+          "locator": "Things you can do / Do / enjoyment bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "04cce4f9d00db2c7b93d045c5febc2812012a01202bd1ef000cdfb27209fa2de"
+        },
+        {
+          "evidence_id": "E-PREG-FOOD-AVOID",
+          "locator": "Food safety / Do not eat / milk and sprouts bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "d7f7d08a0abff3e9eea61d9ffdbf10c1d5b446acaa231ec4c6cc1a29345fd2b8"
+        },
+        {
+          "evidence_id": "E-PREG-MEDICINE-BOUNDARY",
+          "locator": "Using medicines / start-stop paragraph",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "b3579b2a15b31a6320c2893293038fafaced4b8a222d9845dad481eb94f1edc5"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-OPTIONS",
+          "locator": "Getting started and Best activity for moms-to-be",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "5630a5dc17aa45ae2aad6cef96b9917f9b85bf94afc5eeb4a31119f2111ceb35"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-PACE",
+          "locator": "Tips for safe and healthy physical activity / first three bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3f9d9783bab3ce9e2b9d4d60fa441bc592abe5f0bf43640e7fd8577f85a6726e"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-STOP",
+          "locator": "Tips / Stop exercising and call your doctor / complete list",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "6bfcebdcfb12dc13c30eb7b2b47c99deee2a36bc56d75680ef607462066be6a9"
+        },
+        {
+          "evidence_id": "E-PREG-TALK",
+          "locator": "Things you can do / Do / feelings bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "06b533049a2c5c4c6e9dae5e8a7534c0135dec4dd8a9a37d90ab67d189f6039b"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P10",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [
+        "followup",
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "symptoms",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-FOOD-HYGIENE",
+        "F-IN-ANC-TESTS",
+        "F-IN-BIRTH-PLAN",
+        "F-IN-FOOD",
+        "F-IN-FOOD-GRAINS",
+        "F-IN-FOOD-GREENS",
+        "F-IN-REGISTRATION",
+        "F-MOVEMENT-CONSULT",
+        "F-P10-DEVELOPMENT",
+        "F-PREG-ENJOY",
+        "F-PREG-FOOD-AVOID",
+        "F-PREG-MEDICINE-BOUNDARY",
+        "F-PREG-MOVEMENT-OPTIONS",
+        "F-PREG-MOVEMENT-PACE",
+        "F-PREG-MOVEMENT-STOP",
+        "F-PREG-TALK"
+      ],
+      "journey_state": {
+        "end": 10,
+        "stage": "pregnancy",
+        "start": 10,
+        "unit": "week"
+      },
+      "profile_id": "P10",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "accepted",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "accepted",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-FOOD-HYGIENE",
+        "E-IN-ANC-TESTS",
+        "E-IN-BIRTH-PLAN",
+        "E-IN-FOOD",
+        "E-IN-FOOD-GRAINS",
+        "E-IN-FOOD-GREENS",
+        "E-IN-REGISTRATION",
+        "E-MOVEMENT-CONSULT",
+        "E-P10-DEVELOPMENT",
+        "E-PREG-ENJOY",
+        "E-PREG-FOOD-AVOID",
+        "E-PREG-MEDICINE-BOUNDARY",
+        "E-PREG-MOVEMENT-OPTIONS",
+        "E-PREG-MOVEMENT-PACE",
+        "E-PREG-MOVEMENT-STOP",
+        "E-PREG-TALK"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "display"
+          ],
+          "attribution_text": "Better Health Channel, State Government of Victoria. Pregnancy - week by week (reviewed 28 February 2012; accessed 10 September 2026).",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "BHC-WEEKS",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PREG-MIND",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-HEALTH",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-FOOD-HYGIENE",
+          "locator": "Food safety / produce bullet",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3ddc83519fe47398343639ac3b08369ebb8bc5b4c2fbc7c8927abc9788e21fa4"
+        },
+        {
+          "evidence_id": "E-IN-ANC-TESTS",
+          "locator": "Page 11 / 3.1 / testing bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "d9f303e89d37059eaa09382d842666b9a28942428c58274666e6e5795a24be59"
+        },
+        {
+          "evidence_id": "E-IN-BIRTH-PLAN",
+          "locator": "Page 11 / section 3.1 / birth planning bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "0d791402ed05f7aad9eb7393f65c314a7744b55eb0421f4b83db0d4a1929d40b"
+        },
+        {
+          "evidence_id": "E-IN-FOOD",
+          "locator": "Page 10 / bottom banner opening",
+          "page": 10,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "e6083b567e31ea239462eae67a7678ae77d78cb29d3ed6b107e556b6487ca5a2"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GRAINS",
+          "locator": "Page 9 / cereals and pulses sentence",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "361c352fe6b521dac4396541312c0712a2a95fb2efe6b184aa44514b54de443e"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GREENS",
+          "locator": "Page 9 / leafy-vegetables bullet",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "dd3b6b46021139783a8e9001214aa5ae644faa28ccd3c688a31354a32fd423e7"
+        },
+        {
+          "evidence_id": "E-IN-REGISTRATION",
+          "locator": "Page 11 / 3.1 / registration bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "a2d9a58564a5dc4f39ef96d2b0c66b95fbeb624856b00697b2fb0cb35407d97e"
+        },
+        {
+          "evidence_id": "E-MOVEMENT-CONSULT",
+          "locator": "Getting started / consultation sentence",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "8f59b0762689747466982380bbfb4f233c5b10b7e6e8f91e0402f631ef74cee6"
+        },
+        {
+          "evidence_id": "E-P10-DEVELOPMENT",
+          "locator": "Pregnancy week 10 / first sentence",
+          "page": null,
+          "source_id": "BHC-WEEKS",
+          "status": "draft",
+          "text_checksum": "bd52cfba5ca086bcbd57cd987d5c3167bf7ea8032f00d5f83d14ae345c7004ee"
+        },
+        {
+          "evidence_id": "E-PREG-ENJOY",
+          "locator": "Things you can do / Do / enjoyment bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "04cce4f9d00db2c7b93d045c5febc2812012a01202bd1ef000cdfb27209fa2de"
+        },
+        {
+          "evidence_id": "E-PREG-FOOD-AVOID",
+          "locator": "Food safety / Do not eat / milk and sprouts bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "d7f7d08a0abff3e9eea61d9ffdbf10c1d5b446acaa231ec4c6cc1a29345fd2b8"
+        },
+        {
+          "evidence_id": "E-PREG-MEDICINE-BOUNDARY",
+          "locator": "Using medicines / start-stop paragraph",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "b3579b2a15b31a6320c2893293038fafaced4b8a222d9845dad481eb94f1edc5"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-OPTIONS",
+          "locator": "Getting started and Best activity for moms-to-be",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "5630a5dc17aa45ae2aad6cef96b9917f9b85bf94afc5eeb4a31119f2111ceb35"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-PACE",
+          "locator": "Tips for safe and healthy physical activity / first three bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3f9d9783bab3ce9e2b9d4d60fa441bc592abe5f0bf43640e7fd8577f85a6726e"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-STOP",
+          "locator": "Tips / Stop exercising and call your doctor / complete list",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "6bfcebdcfb12dc13c30eb7b2b47c99deee2a36bc56d75680ef607462066be6a9"
+        },
+        {
+          "evidence_id": "E-PREG-TALK",
+          "locator": "Things you can do / Do / feelings bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "06b533049a2c5c4c6e9dae5e8a7534c0135dec4dd8a9a37d90ab67d189f6039b"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P11",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 11,
+        "stage": "pregnancy",
+        "start": 11,
+        "unit": "week"
+      },
+      "profile_id": "P11",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P12",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 12,
+        "stage": "pregnancy",
+        "start": 12,
+        "unit": "week"
+      },
+      "profile_id": "P12",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P13",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 13,
+        "stage": "pregnancy",
+        "start": 13,
+        "unit": "week"
+      },
+      "profile_id": "P13",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P14",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 14,
+        "stage": "pregnancy",
+        "start": 14,
+        "unit": "week"
+      },
+      "profile_id": "P14",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P15",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 15,
+        "stage": "pregnancy",
+        "start": 15,
+        "unit": "week"
+      },
+      "profile_id": "P15",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P16",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 16,
+        "stage": "pregnancy",
+        "start": 16,
+        "unit": "week"
+      },
+      "profile_id": "P16",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P17",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 17,
+        "stage": "pregnancy",
+        "start": 17,
+        "unit": "week"
+      },
+      "profile_id": "P17",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P18",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 18,
+        "stage": "pregnancy",
+        "start": 18,
+        "unit": "week"
+      },
+      "profile_id": "P18",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P19",
+        "measurement_basis": "CRL/editorial scale",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 19,
+        "stage": "pregnancy",
+        "start": 19,
+        "unit": "week"
+      },
+      "profile_id": "P19",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P20",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 20,
+        "stage": "pregnancy",
+        "start": 20,
+        "unit": "week"
+      },
+      "profile_id": "P20",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P21",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 21,
+        "stage": "pregnancy",
+        "start": 21,
+        "unit": "week"
+      },
+      "profile_id": "P21",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P22",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 22,
+        "stage": "pregnancy",
+        "start": 22,
+        "unit": "week"
+      },
+      "profile_id": "P22",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P23",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 23,
+        "stage": "pregnancy",
+        "start": 23,
+        "unit": "week"
+      },
+      "profile_id": "P23",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P24",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [
+        "followup",
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "symptoms",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-FOOD-HYGIENE",
+        "F-IN-ANC-TESTS",
+        "F-IN-BIRTH-PLAN",
+        "F-IN-FOOD",
+        "F-IN-FOOD-GRAINS",
+        "F-IN-FOOD-GREENS",
+        "F-IN-PMSMA",
+        "F-MOVEMENT-CONSULT",
+        "F-P24-DEVELOPMENT",
+        "F-PREG-ENJOY",
+        "F-PREG-FOOD-AVOID",
+        "F-PREG-MEDICINE-BOUNDARY",
+        "F-PREG-MOVEMENT-OPTIONS",
+        "F-PREG-MOVEMENT-PACE",
+        "F-PREG-MOVEMENT-STOP",
+        "F-PREG-TALK"
+      ],
+      "journey_state": {
+        "end": 24,
+        "stage": "pregnancy",
+        "start": 24,
+        "unit": "week"
+      },
+      "profile_id": "P24",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "partial",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "partial",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-FOOD-HYGIENE",
+        "E-IN-ANC-TESTS",
+        "E-IN-BIRTH-PLAN",
+        "E-IN-FOOD",
+        "E-IN-FOOD-GRAINS",
+        "E-IN-FOOD-GREENS",
+        "E-IN-PMSMA",
+        "E-MOVEMENT-CONSULT",
+        "E-P24-DEVELOPMENT",
+        "E-PREG-ENJOY",
+        "E-PREG-FOOD-AVOID",
+        "E-PREG-MEDICINE-BOUNDARY",
+        "E-PREG-MOVEMENT-OPTIONS",
+        "E-PREG-MOVEMENT-PACE",
+        "E-PREG-MOVEMENT-STOP",
+        "E-PREG-TALK"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PREG-MIND",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-HEALTH",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-STAGES",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Press Information Bureau, Government of India, 8 June 2026.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "PIB-PMSMA",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-FOOD-HYGIENE",
+          "locator": "Food safety / produce bullet",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3ddc83519fe47398343639ac3b08369ebb8bc5b4c2fbc7c8927abc9788e21fa4"
+        },
+        {
+          "evidence_id": "E-IN-ANC-TESTS",
+          "locator": "Page 11 / 3.1 / testing bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "d9f303e89d37059eaa09382d842666b9a28942428c58274666e6e5795a24be59"
+        },
+        {
+          "evidence_id": "E-IN-BIRTH-PLAN",
+          "locator": "Page 11 / section 3.1 / birth planning bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "0d791402ed05f7aad9eb7393f65c314a7744b55eb0421f4b83db0d4a1929d40b"
+        },
+        {
+          "evidence_id": "E-IN-FOOD",
+          "locator": "Page 10 / bottom banner opening",
+          "page": 10,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "e6083b567e31ea239462eae67a7678ae77d78cb29d3ed6b107e556b6487ca5a2"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GRAINS",
+          "locator": "Page 9 / cereals and pulses sentence",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "361c352fe6b521dac4396541312c0712a2a95fb2efe6b184aa44514b54de443e"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GREENS",
+          "locator": "Page 9 / leafy-vegetables bullet",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "dd3b6b46021139783a8e9001214aa5ae644faa28ccd3c688a31354a32fd423e7"
+        },
+        {
+          "evidence_id": "E-IN-PMSMA",
+          "locator": "Page 2 / programme opening paragraph",
+          "page": 2,
+          "source_id": "PIB-PMSMA",
+          "status": "draft",
+          "text_checksum": "52d3b8f5ade0d101bc00f56d52ccc59bfab11363ba5009dbf15c786b16ecc470"
+        },
+        {
+          "evidence_id": "E-MOVEMENT-CONSULT",
+          "locator": "Getting started / consultation sentence",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "8f59b0762689747466982380bbfb4f233c5b10b7e6e8f91e0402f631ef74cee6"
+        },
+        {
+          "evidence_id": "E-P24-DEVELOPMENT",
+          "locator": "Your developing baby / At 24 weeks / first bullet",
+          "page": null,
+          "source_id": "OWH-STAGES",
+          "status": "draft",
+          "text_checksum": "59a61c61b6caa886017f2dd5baff22ecb68d88ae2049ccb70e2e33d4eb723e53"
+        },
+        {
+          "evidence_id": "E-PREG-ENJOY",
+          "locator": "Things you can do / Do / enjoyment bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "04cce4f9d00db2c7b93d045c5febc2812012a01202bd1ef000cdfb27209fa2de"
+        },
+        {
+          "evidence_id": "E-PREG-FOOD-AVOID",
+          "locator": "Food safety / Do not eat / milk and sprouts bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "d7f7d08a0abff3e9eea61d9ffdbf10c1d5b446acaa231ec4c6cc1a29345fd2b8"
+        },
+        {
+          "evidence_id": "E-PREG-MEDICINE-BOUNDARY",
+          "locator": "Using medicines / start-stop paragraph",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "b3579b2a15b31a6320c2893293038fafaced4b8a222d9845dad481eb94f1edc5"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-OPTIONS",
+          "locator": "Getting started and Best activity for moms-to-be",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "5630a5dc17aa45ae2aad6cef96b9917f9b85bf94afc5eeb4a31119f2111ceb35"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-PACE",
+          "locator": "Tips for safe and healthy physical activity / first three bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3f9d9783bab3ce9e2b9d4d60fa441bc592abe5f0bf43640e7fd8577f85a6726e"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-STOP",
+          "locator": "Tips / Stop exercising and call your doctor / complete list",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "6bfcebdcfb12dc13c30eb7b2b47c99deee2a36bc56d75680ef607462066be6a9"
+        },
+        {
+          "evidence_id": "E-PREG-TALK",
+          "locator": "Things you can do / Do / feelings bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "06b533049a2c5c4c6e9dae5e8a7534c0135dec4dd8a9a37d90ab67d189f6039b"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P25",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 25,
+        "stage": "pregnancy",
+        "start": 25,
+        "unit": "week"
+      },
+      "profile_id": "P25",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P26",
+        "measurement_basis": "Round-object editorial comparison; measurement convention pending",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 26,
+        "stage": "pregnancy",
+        "start": 26,
+        "unit": "week"
+      },
+      "profile_id": "P26",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P27",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 27,
+        "stage": "pregnancy",
+        "start": 27,
+        "unit": "week"
+      },
+      "profile_id": "P27",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P28",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 28,
+        "stage": "pregnancy",
+        "start": 28,
+        "unit": "week"
+      },
+      "profile_id": "P28",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P29",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 29,
+        "stage": "pregnancy",
+        "start": 29,
+        "unit": "week"
+      },
+      "profile_id": "P29",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P30",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 30,
+        "stage": "pregnancy",
+        "start": 30,
+        "unit": "week"
+      },
+      "profile_id": "P30",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P31",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 31,
+        "stage": "pregnancy",
+        "start": 31,
+        "unit": "week"
+      },
+      "profile_id": "P31",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P32",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 32,
+        "stage": "pregnancy",
+        "start": 32,
+        "unit": "week"
+      },
+      "profile_id": "P32",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P33",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 33,
+        "stage": "pregnancy",
+        "start": 33,
+        "unit": "week"
+      },
+      "profile_id": "P33",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P34",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 34,
+        "stage": "pregnancy",
+        "start": 34,
+        "unit": "week"
+      },
+      "profile_id": "P34",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P35",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 35,
+        "stage": "pregnancy",
+        "start": 35,
+        "unit": "week"
+      },
+      "profile_id": "P35",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Product direction approved; measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P36",
+        "measurement_basis": "Approximate bulk; round-object mapping pending verification",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "product_approved_2026-09-11",
+        "proposal_source": "Kajal product review 2026-09-11; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [
+        "followup",
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "symptoms",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-FOOD-HYGIENE",
+        "F-IN-ANC-TESTS",
+        "F-IN-BIRTH-PLAN",
+        "F-IN-FOOD",
+        "F-IN-FOOD-GRAINS",
+        "F-IN-FOOD-GREENS",
+        "F-IN-PMSMA",
+        "F-MOVEMENT-CONSULT",
+        "F-P36-DEVELOPMENT",
+        "F-PREG-ENJOY",
+        "F-PREG-FOOD-AVOID",
+        "F-PREG-MEDICINE-BOUNDARY",
+        "F-PREG-MOVEMENT-OPTIONS",
+        "F-PREG-MOVEMENT-PACE",
+        "F-PREG-MOVEMENT-STOP",
+        "F-PREG-TALK"
+      ],
+      "journey_state": {
+        "end": 36,
+        "stage": "pregnancy",
+        "start": 36,
+        "unit": "week"
+      },
+      "profile_id": "P36",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "partial",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "partial",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-FOOD-HYGIENE",
+        "E-IN-ANC-TESTS",
+        "E-IN-BIRTH-PLAN",
+        "E-IN-FOOD",
+        "E-IN-FOOD-GRAINS",
+        "E-IN-FOOD-GREENS",
+        "E-IN-PMSMA",
+        "E-MOVEMENT-CONSULT",
+        "E-P36-DEVELOPMENT",
+        "E-PREG-ENJOY",
+        "E-PREG-FOOD-AVOID",
+        "E-PREG-MEDICINE-BOUNDARY",
+        "E-PREG-MOVEMENT-OPTIONS",
+        "E-PREG-MOVEMENT-PACE",
+        "E-PREG-MOVEMENT-STOP",
+        "E-PREG-TALK"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PREG-MIND",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-HEALTH",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-STAGES",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Press Information Bureau, Government of India, 8 June 2026.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "PIB-PMSMA",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-FOOD-HYGIENE",
+          "locator": "Food safety / produce bullet",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3ddc83519fe47398343639ac3b08369ebb8bc5b4c2fbc7c8927abc9788e21fa4"
+        },
+        {
+          "evidence_id": "E-IN-ANC-TESTS",
+          "locator": "Page 11 / 3.1 / testing bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "d9f303e89d37059eaa09382d842666b9a28942428c58274666e6e5795a24be59"
+        },
+        {
+          "evidence_id": "E-IN-BIRTH-PLAN",
+          "locator": "Page 11 / section 3.1 / birth planning bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "0d791402ed05f7aad9eb7393f65c314a7744b55eb0421f4b83db0d4a1929d40b"
+        },
+        {
+          "evidence_id": "E-IN-FOOD",
+          "locator": "Page 10 / bottom banner opening",
+          "page": 10,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "e6083b567e31ea239462eae67a7678ae77d78cb29d3ed6b107e556b6487ca5a2"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GRAINS",
+          "locator": "Page 9 / cereals and pulses sentence",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "361c352fe6b521dac4396541312c0712a2a95fb2efe6b184aa44514b54de443e"
+        },
+        {
+          "evidence_id": "E-IN-FOOD-GREENS",
+          "locator": "Page 9 / leafy-vegetables bullet",
+          "page": 9,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "dd3b6b46021139783a8e9001214aa5ae644faa28ccd3c688a31354a32fd423e7"
+        },
+        {
+          "evidence_id": "E-IN-PMSMA",
+          "locator": "Page 2 / programme opening paragraph",
+          "page": 2,
+          "source_id": "PIB-PMSMA",
+          "status": "draft",
+          "text_checksum": "52d3b8f5ade0d101bc00f56d52ccc59bfab11363ba5009dbf15c786b16ecc470"
+        },
+        {
+          "evidence_id": "E-MOVEMENT-CONSULT",
+          "locator": "Getting started / consultation sentence",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "8f59b0762689747466982380bbfb4f233c5b10b7e6e8f91e0402f631ef74cee6"
+        },
+        {
+          "evidence_id": "E-P36-DEVELOPMENT",
+          "locator": "Your developing baby / At 36 weeks / second bullet opening",
+          "page": null,
+          "source_id": "OWH-STAGES",
+          "status": "draft",
+          "text_checksum": "def030845e08ec9d852042e9bbff27b1b642714f929dec9fe1b1db93f2a9c57b"
+        },
+        {
+          "evidence_id": "E-PREG-ENJOY",
+          "locator": "Things you can do / Do / enjoyment bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "04cce4f9d00db2c7b93d045c5febc2812012a01202bd1ef000cdfb27209fa2de"
+        },
+        {
+          "evidence_id": "E-PREG-FOOD-AVOID",
+          "locator": "Food safety / Do not eat / milk and sprouts bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "d7f7d08a0abff3e9eea61d9ffdbf10c1d5b446acaa231ec4c6cc1a29345fd2b8"
+        },
+        {
+          "evidence_id": "E-PREG-MEDICINE-BOUNDARY",
+          "locator": "Using medicines / start-stop paragraph",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "b3579b2a15b31a6320c2893293038fafaced4b8a222d9845dad481eb94f1edc5"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-OPTIONS",
+          "locator": "Getting started and Best activity for moms-to-be",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "5630a5dc17aa45ae2aad6cef96b9917f9b85bf94afc5eeb4a31119f2111ceb35"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-PACE",
+          "locator": "Tips for safe and healthy physical activity / first three bullets",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "3f9d9783bab3ce9e2b9d4d60fa441bc592abe5f0bf43640e7fd8577f85a6726e"
+        },
+        {
+          "evidence_id": "E-PREG-MOVEMENT-STOP",
+          "locator": "Tips / Stop exercising and call your doctor / complete list",
+          "page": null,
+          "source_id": "OWH-HEALTH",
+          "status": "draft",
+          "text_checksum": "6bfcebdcfb12dc13c30eb7b2b47c99deee2a36bc56d75680ef607462066be6a9"
+        },
+        {
+          "evidence_id": "E-PREG-TALK",
+          "locator": "Things you can do / Do / feelings bullet",
+          "page": null,
+          "source_id": "NHS-PREG-MIND",
+          "status": "draft",
+          "text_checksum": "06b533049a2c5c4c6e9dae5e8a7534c0135dec4dd8a9a37d90ab67d189f6039b"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P37",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 37,
+        "stage": "pregnancy",
+        "start": 37,
+        "unit": "week"
+      },
+      "profile_id": "P37",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P38",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 38,
+        "stage": "pregnancy",
+        "start": 38,
+        "unit": "week"
+      },
+      "profile_id": "P38",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P39",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 39,
+        "stage": "pregnancy",
+        "start": 39,
+        "unit": "week"
+      },
+      "profile_id": "P39",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P40",
+        "measurement_basis": "Approximate bulk",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 40,
+        "stage": "pregnancy",
+        "start": 40,
+        "unit": "week"
+      },
+      "profile_id": "P40",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Teammate editorial proposal: measurement series, object dimensions and clinical review not verified",
+        "illustrative_only": true,
+        "item_id": "SIZE-P41",
+        "measurement_basis": "Approximate bulk; review required",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 41,
+        "stage": "pregnancy",
+        "start": 41,
+        "unit": "week"
+      },
+      "profile_id": "P41",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact India-local wording and clinical review required. Generic week-42 wellness content is withheld.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "comparison measurement/editorial review incomplete; hidden",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "clinical_review_status": "pending",
+        "eligible_for_display": false,
+        "hide_reason": "Intentional non-size state",
+        "illustrative_only": true,
+        "item_id": "SIZE-P42",
+        "measurement_basis": "Safety/product exception",
+        "measurement_value": null,
+        "object_dimension_mm": null,
+        "product_editorial_review_status": "pending",
+        "proposal_source": "Team-supplied correction plan section 12.1; not a medical authority",
+        "status": "draft"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 42,
+        "stage": "pregnancy",
+        "start": 42,
+        "unit": "week"
+      },
+      "profile_id": "P42",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "preparation"
+      ],
+      "fragment_ids": [
+        "F-IN-TEST-SUPPORT",
+        "F-TEST"
+      ],
+      "journey_state": {
+        "end": null,
+        "stage": "possible_pregnancy",
+        "start": null,
+        "unit": "none"
+      },
+      "profile_id": "PC00",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "accepted",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "accepted",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-TEST-SUPPORT",
+        "E-TEST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "OWH-TEST",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-TEST-SUPPORT",
+          "locator": "Page 11 / section 3.1 / first bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "ceaa6a82a0c84a723047d041706cb56714eb71c59c0199c1f4c80f909c70ee52"
+        },
+        {
+          "evidence_id": "E-TEST",
+          "locator": "Home pregnancy tests / directions paragraph",
+          "page": null,
+          "source_id": "OWH-TEST",
+          "status": "draft",
+          "text_checksum": "8a00227c127ecb34530c1c8cc4b8aa3112c228a6f0e54032bed37ce81d562f7c"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "movement",
+        "nutrition",
+        "preparation",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-IN-REST-PP",
+        "F-PP-ASK-HELP",
+        "F-PP-DIET",
+        "F-PP-GENTLE-MOVEMENT",
+        "F-PP-MIND-REST",
+        "F-PP-MIND-TALK",
+        "F-PP-MOVEMENT-QUESTION",
+        "F-PP-PERSISTENT-CONCERN",
+        "F-PP-PRACTICAL-HELP"
+      ],
+      "journey_state": {
+        "end": 1,
+        "stage": "postpartum",
+        "start": 1,
+        "unit": "week"
+      },
+      "profile_id": "PP01",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "accepted",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "accepted",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-REST-PP",
+        "E-PP-ASK-HELP",
+        "E-PP-DIET",
+        "E-PP-GENTLE-MOVEMENT",
+        "E-PP-MIND-REST",
+        "E-PP-MIND-TALK",
+        "E-PP-MOVEMENT-QUESTION",
+        "E-PP-PERSISTENT-CONCERN",
+        "E-PP-PRACTICAL-HELP"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-ACTIVE",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-DIET",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-SUPPORT",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-REST-PP",
+          "locator": "Page 16 / Postpartum care / rest bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        },
+        {
+          "evidence_id": "E-PP-ASK-HELP",
+          "locator": "Look after your mental health / help and rest bullets",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6a02f4017de58a7299f23953c1462450bccaa03e28cf72930891ac9386c97710"
+        },
+        {
+          "evidence_id": "E-PP-DIET",
+          "locator": "Introduction / first sentence",
+          "page": null,
+          "source_id": "NHS-PP-DIET",
+          "status": "draft",
+          "text_checksum": "31c460ff7df677a4667066e32ae3645dc6e680b654d20fd1da43b26e8a9f5ab3"
+        },
+        {
+          "evidence_id": "E-PP-GENTLE-MOVEMENT",
+          "locator": "When can I start exercising after birth? / straightforward-birth paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "e735f8929c31cd1c9161bc987eddad35650a92fe4d21d87f0703673cafc6b940"
+        },
+        {
+          "evidence_id": "E-PP-MIND-REST",
+          "locator": "Look after your mental health / first bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6c08d0dd2df511596f38c9e16c7fd87293827cdbb774a7d25dccb022cb2c8883"
+        },
+        {
+          "evidence_id": "E-PP-MIND-TALK",
+          "locator": "Look after your mental health / final bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "d990f8fc78d493dd138203cee5dddc6514dbf1a10cbcc687d7218ffac9f55596"
+        },
+        {
+          "evidence_id": "E-PP-MOVEMENT-QUESTION",
+          "locator": "When can I start exercising after birth? / complete complicated-delivery paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "b0cd76cc3772e68bff598700c4c10445517b45d9e667bdbc8767949213a4883e"
+        },
+        {
+          "evidence_id": "E-PP-PERSISTENT-CONCERN",
+          "locator": "Look after your mental health / concern paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "4f9cafc8ea86fda66d4bc8befdaad2a36ffdb073549975af6c0feef5cc9c23a3"
+        },
+        {
+          "evidence_id": "E-PP-PRACTICAL-HELP",
+          "locator": "Relationships with family and friends / help paragraph opening / expanded supporting unit",
+          "page": null,
+          "source_id": "NHS-PP-SUPPORT",
+          "status": "draft",
+          "text_checksum": "092fe6f829f80d85c74c979ca9e89881feb9e9a69df1835ef717541f9586cd32"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 2,
+        "stage": "postpartum",
+        "start": 2,
+        "unit": "week"
+      },
+      "profile_id": "PP02",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 3,
+        "stage": "postpartum",
+        "start": 3,
+        "unit": "week"
+      },
+      "profile_id": "PP03",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 4,
+        "stage": "postpartum",
+        "start": 4,
+        "unit": "week"
+      },
+      "profile_id": "PP04",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 5,
+        "stage": "postpartum",
+        "start": 5,
+        "unit": "week"
+      },
+      "profile_id": "PP05",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-FOLLOWUP",
+        "F-IN-REST-PP",
+        "F-PP-ASK-HELP",
+        "F-PP-DIET",
+        "F-PP-FERTILITY",
+        "F-PP-FERTILITY-FEEDING",
+        "F-PP-GENTLE-MOVEMENT",
+        "F-PP-MIND-REST",
+        "F-PP-MIND-TALK",
+        "F-PP-MOVEMENT-QUESTION",
+        "F-PP-PERSISTENT-CONCERN",
+        "F-PP-PRACTICAL-HELP"
+      ],
+      "journey_state": {
+        "end": 6,
+        "stage": "postpartum",
+        "start": 6,
+        "unit": "week"
+      },
+      "profile_id": "PP06",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "partial",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "partial",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-FOLLOWUP",
+        "E-IN-REST-PP",
+        "E-PP-ASK-HELP",
+        "E-PP-DIET",
+        "E-PP-FERTILITY",
+        "E-PP-GENTLE-MOVEMENT",
+        "E-PP-MIND-REST",
+        "E-PP-MIND-TALK",
+        "E-PP-MOVEMENT-QUESTION",
+        "E-PP-PERSISTENT-CONCERN",
+        "E-PP-PRACTICAL-HELP"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-ACTIVE",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-BODY",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-DIET",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-SUPPORT",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-FOLLOWUP",
+          "locator": "Page 11 / 3.1 / complete PNC home-visit bullet",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "60989e717f3918343b147e57ff2522ab5d1dc677817875cb08ecae2fefc25d30"
+        },
+        {
+          "evidence_id": "E-IN-REST-PP",
+          "locator": "Page 16 / Postpartum care / rest bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        },
+        {
+          "evidence_id": "E-PP-ASK-HELP",
+          "locator": "Look after your mental health / help and rest bullets",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6a02f4017de58a7299f23953c1462450bccaa03e28cf72930891ac9386c97710"
+        },
+        {
+          "evidence_id": "E-PP-DIET",
+          "locator": "Introduction / first sentence",
+          "page": null,
+          "source_id": "NHS-PP-DIET",
+          "status": "draft",
+          "text_checksum": "31c460ff7df677a4667066e32ae3645dc6e680b654d20fd1da43b26e8a9f5ab3"
+        },
+        {
+          "evidence_id": "E-PP-FERTILITY",
+          "locator": "How soon after giving birth can I get pregnant? / first clause / expanded supporting unit",
+          "page": null,
+          "source_id": "NHS-PP-BODY",
+          "status": "draft",
+          "text_checksum": "c41ed2898be2c874a5ea3ea26bc34b90369890e6d22f16f026ea453ec80fec8b"
+        },
+        {
+          "evidence_id": "E-PP-GENTLE-MOVEMENT",
+          "locator": "When can I start exercising after birth? / straightforward-birth paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "e735f8929c31cd1c9161bc987eddad35650a92fe4d21d87f0703673cafc6b940"
+        },
+        {
+          "evidence_id": "E-PP-MIND-REST",
+          "locator": "Look after your mental health / first bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6c08d0dd2df511596f38c9e16c7fd87293827cdbb774a7d25dccb022cb2c8883"
+        },
+        {
+          "evidence_id": "E-PP-MIND-TALK",
+          "locator": "Look after your mental health / final bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "d990f8fc78d493dd138203cee5dddc6514dbf1a10cbcc687d7218ffac9f55596"
+        },
+        {
+          "evidence_id": "E-PP-MOVEMENT-QUESTION",
+          "locator": "When can I start exercising after birth? / complete complicated-delivery paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "b0cd76cc3772e68bff598700c4c10445517b45d9e667bdbc8767949213a4883e"
+        },
+        {
+          "evidence_id": "E-PP-PERSISTENT-CONCERN",
+          "locator": "Look after your mental health / concern paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "4f9cafc8ea86fda66d4bc8befdaad2a36ffdb073549975af6c0feef5cc9c23a3"
+        },
+        {
+          "evidence_id": "E-PP-PRACTICAL-HELP",
+          "locator": "Relationships with family and friends / help paragraph opening / expanded supporting unit",
+          "page": null,
+          "source_id": "NHS-PP-SUPPORT",
+          "status": "draft",
+          "text_checksum": "092fe6f829f80d85c74c979ca9e89881feb9e9a69df1835ef717541f9586cd32"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 7,
+        "stage": "postpartum",
+        "start": 7,
+        "unit": "week"
+      },
+      "profile_id": "PP07",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 8,
+        "stage": "postpartum",
+        "start": 8,
+        "unit": "week"
+      },
+      "profile_id": "PP08",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 9,
+        "stage": "postpartum",
+        "start": 9,
+        "unit": "week"
+      },
+      "profile_id": "PP09",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 10,
+        "stage": "postpartum",
+        "start": 10,
+        "unit": "week"
+      },
+      "profile_id": "PP10",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "India-localisation review pending",
+        "Outside the agreed representative content release; no reviewed weekly content.",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [],
+      "fragment_ids": [],
+      "journey_state": {
+        "end": 11,
+        "stage": "postpartum",
+        "start": 11,
+        "unit": "week"
+      },
+      "profile_id": "PP11",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "not_applicable",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "not_applicable",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [],
+      "source_governance": [],
+      "source_spans": []
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "journey",
+        "movement",
+        "nutrition",
+        "preparation",
+        "wellbeing"
+      ],
+      "fragment_ids": [
+        "F-PP-ASK-HELP",
+        "F-PP-DIET",
+        "F-PP-FERTILITY",
+        "F-PP-FERTILITY-FEEDING",
+        "F-PP-GENTLE-MOVEMENT",
+        "F-PP-MIND-REST",
+        "F-PP-MIND-TALK",
+        "F-PP-MOVEMENT-QUESTION",
+        "F-PP-PERSISTENT-CONCERN",
+        "F-PP-PRACTICAL-HELP"
+      ],
+      "journey_state": {
+        "end": 12,
+        "stage": "postpartum",
+        "start": 12,
+        "unit": "week"
+      },
+      "profile_id": "PP12",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "partial",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "partial",
+        "source_currency": "current_capture"
+      },
+      "source_evidence_ids": [
+        "E-PP-ASK-HELP",
+        "E-PP-DIET",
+        "E-PP-FERTILITY",
+        "E-PP-GENTLE-MOVEMENT",
+        "E-PP-MIND-REST",
+        "E-PP-MIND-TALK",
+        "E-PP-MOVEMENT-QUESTION",
+        "E-PP-PERSISTENT-CONCERN",
+        "E-PP-PRACTICAL-HELP"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-ACTIVE",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-BODY",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-DIET",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Contains public sector information licensed under the Open Government Licence v3.0. Nestline wording is an adaptation, not NHS-approved content.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "current_capture",
+          "source_id": "NHS-PP-SUPPORT",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-PP-ASK-HELP",
+          "locator": "Look after your mental health / help and rest bullets",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6a02f4017de58a7299f23953c1462450bccaa03e28cf72930891ac9386c97710"
+        },
+        {
+          "evidence_id": "E-PP-DIET",
+          "locator": "Introduction / first sentence",
+          "page": null,
+          "source_id": "NHS-PP-DIET",
+          "status": "draft",
+          "text_checksum": "31c460ff7df677a4667066e32ae3645dc6e680b654d20fd1da43b26e8a9f5ab3"
+        },
+        {
+          "evidence_id": "E-PP-FERTILITY",
+          "locator": "How soon after giving birth can I get pregnant? / first clause / expanded supporting unit",
+          "page": null,
+          "source_id": "NHS-PP-BODY",
+          "status": "draft",
+          "text_checksum": "c41ed2898be2c874a5ea3ea26bc34b90369890e6d22f16f026ea453ec80fec8b"
+        },
+        {
+          "evidence_id": "E-PP-GENTLE-MOVEMENT",
+          "locator": "When can I start exercising after birth? / straightforward-birth paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "e735f8929c31cd1c9161bc987eddad35650a92fe4d21d87f0703673cafc6b940"
+        },
+        {
+          "evidence_id": "E-PP-MIND-REST",
+          "locator": "Look after your mental health / first bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "6c08d0dd2df511596f38c9e16c7fd87293827cdbb774a7d25dccb022cb2c8883"
+        },
+        {
+          "evidence_id": "E-PP-MIND-TALK",
+          "locator": "Look after your mental health / final bullet",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "d990f8fc78d493dd138203cee5dddc6514dbf1a10cbcc687d7218ffac9f55596"
+        },
+        {
+          "evidence_id": "E-PP-MOVEMENT-QUESTION",
+          "locator": "When can I start exercising after birth? / complete complicated-delivery paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "b0cd76cc3772e68bff598700c4c10445517b45d9e667bdbc8767949213a4883e"
+        },
+        {
+          "evidence_id": "E-PP-PERSISTENT-CONCERN",
+          "locator": "Look after your mental health / concern paragraph",
+          "page": null,
+          "source_id": "NHS-PP-ACTIVE",
+          "status": "draft",
+          "text_checksum": "4f9cafc8ea86fda66d4bc8befdaad2a36ffdb073549975af6c0feef5cc9c23a3"
+        },
+        {
+          "evidence_id": "E-PP-PRACTICAL-HELP",
+          "locator": "Relationships with family and friends / help paragraph opening / expanded supporting unit",
+          "page": null,
+          "source_id": "NHS-PP-SUPPORT",
+          "status": "draft",
+          "text_checksum": "092fe6f829f80d85c74c979ca9e89881feb9e9a69df1835ef717541f9586cd32"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST",
+        "F-IN-PP-DAY0"
+      ],
+      "journey_state": {
+        "end": 0,
+        "stage": "postpartum",
+        "start": 0,
+        "unit": "day"
+      },
+      "profile_id": "PPD0",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST",
+        "E-IN-PP-DAY0"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY0",
+          "locator": "Page 16 / day-of-delivery follow-up bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "bed8430fd1851da54f81d7d4275c2d4778e00897275cdde91cb5f3f8a458658c"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PNC-DAY1",
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 1,
+        "stage": "postpartum",
+        "start": 1,
+        "unit": "day"
+      },
+      "profile_id": "PPD1",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PNC-DAY1",
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PNC-DAY1",
+          "locator": "Page 11 / complete PNC schedule / selected day 1",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "60989e717f3918343b147e57ff2522ab5d1dc677817875cb08ecae2fefc25d30"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 2,
+        "stage": "postpartum",
+        "start": 2,
+        "unit": "day"
+      },
+      "profile_id": "PPD2",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PNC-DAY3",
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 3,
+        "stage": "postpartum",
+        "start": 3,
+        "unit": "day"
+      },
+      "profile_id": "PPD3",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PNC-DAY3",
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PNC-DAY3",
+          "locator": "Page 11 / complete PNC schedule / selected day 3",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "60989e717f3918343b147e57ff2522ab5d1dc677817875cb08ecae2fefc25d30"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 4,
+        "stage": "postpartum",
+        "start": 4,
+        "unit": "day"
+      },
+      "profile_id": "PPD4",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 5,
+        "stage": "postpartum",
+        "start": 5,
+        "unit": "day"
+      },
+      "profile_id": "PPD5",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 6,
+        "stage": "postpartum",
+        "start": 6,
+        "unit": "day"
+      },
+      "profile_id": "PPD6",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    },
+    {
+      "blocked_reasons": [
+        "Exact content, licence, clinical, India-localisation and product reviews pending.",
+        "India-localisation review pending",
+        "clinical review pending",
+        "content review incomplete",
+        "product/editorial review incomplete",
+        "source currency review incomplete"
+      ],
+      "comparison": {
+        "eligible_for_display": false,
+        "status": "not_applicable"
+      },
+      "content_categories": [
+        "followup",
+        "preparation",
+        "symptoms"
+      ],
+      "fragment_ids": [
+        "F-IN-PNC-DAY7",
+        "F-IN-PP-DAY-HELP",
+        "F-IN-PP-DAY-REST"
+      ],
+      "journey_state": {
+        "end": 7,
+        "stage": "postpartum",
+        "start": 7,
+        "unit": "day"
+      },
+      "profile_id": "PPD7",
+      "publication_eligible": false,
+      "publication_status": "draft",
+      "review_status": {
+        "clinical": "pending",
+        "content": "pending",
+        "india_localisation": "pending",
+        "licence_reuse": "ready_from_registry",
+        "product_editorial": "pending",
+        "source_currency": "pending_or_blocked"
+      },
+      "source_evidence_ids": [
+        "E-IN-PNC-DAY7",
+        "E-IN-PP-DAY-HELP",
+        "E-IN-PP-DAY-REST"
+      ],
+      "source_governance": [
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-CHO",
+          "source_status": "candidate"
+        },
+        {
+          "allowed_use": [
+            "store",
+            "embed",
+            "display"
+          ],
+          "attribution_text": "Source: Ministry of Health and Family Welfare, Government of India. Selected for a free educational capstone; no endorsement.",
+          "next_review_at": "2026-12-09",
+          "reuse_status": "permitted",
+          "revalidation_status": "needs_currency_review",
+          "source_id": "NHM-MOTHERHOOD",
+          "source_status": "candidate"
+        }
+      ],
+      "source_spans": [
+        {
+          "evidence_id": "E-IN-PNC-DAY7",
+          "locator": "Page 11 / complete PNC schedule / selected day 7",
+          "page": 11,
+          "source_id": "NHM-CHO",
+          "status": "draft",
+          "text_checksum": "60989e717f3918343b147e57ff2522ab5d1dc677817875cb08ecae2fefc25d30"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-HELP",
+          "locator": "Page 16 / immediate-help bullet",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "c7e7b1cd706ca3f362d4480187eea7af1dd03df29575bff2b3f73a331a85f827"
+        },
+        {
+          "evidence_id": "E-IN-PP-DAY-REST",
+          "locator": "Page 16 / postpartum rest bullet / day scope",
+          "page": 16,
+          "source_id": "NHM-MOTHERHOOD",
+          "status": "draft",
+          "text_checksum": "ade155ba14671a4432213f52a7be64de5fda5dda01db7302011fb9d3d36971a7"
+        }
+      ]
+    }
+  ],
+  "schema_version": "nestline-publication-readiness-v1"
+}

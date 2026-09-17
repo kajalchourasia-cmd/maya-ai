@@ -1,0 +1,54 @@
+{
+  "agent_direct_writes": "forbidden",
+  "authenticated_snapshot": "public.stage10_authenticated_snapshot(uuid)",
+  "command_kinds": [
+    "fact_decision",
+    "plan_create",
+    "plan_transition",
+    "follow_up_create",
+    "follow_up_transition",
+    "review_create",
+    "review_transition"
+  ],
+  "dependency_kinds": [
+    "journey_state",
+    "allergy",
+    "restriction",
+    "condition",
+    "symptom",
+    "medication",
+    "supplement",
+    "clinician_instruction",
+    "evidence"
+  ],
+  "external_delivery": "unavailable",
+  "fictional_only_evaluation": true,
+  "migrations": [
+    "20260912000100_stage10_state_review_lifecycle.sql",
+    "20260912000200_stage10_rpc_hardening_and_reset.sql"
+  ],
+  "ordinary_service_role": "forbidden",
+  "plan_lifecycle": [
+    "draft",
+    "user_reviewed",
+    "saved",
+    "active",
+    "stale",
+    "replaced",
+    "archived"
+  ],
+  "remote_migration_applied": false,
+  "review_states": [
+    "not_required",
+    "offered",
+    "consented",
+    "queued",
+    "reviewed",
+    "resumed",
+    "declined",
+    "unavailable",
+    "timed_out"
+  ],
+  "schema_version": "10.0.0",
+  "single_write_boundary": "public.stage10_commit(uuid,jsonb)"
+}

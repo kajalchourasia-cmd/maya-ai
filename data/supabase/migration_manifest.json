@@ -1,0 +1,176 @@
+{
+  "schema_version": "nestline-migration-manifest-v1",
+  "remote_application_authorized": false,
+  "migration_count": 19,
+  "migrations": [
+    {
+      "order": 1,
+      "migration": "20260910000100_stage2_storage.sql",
+      "purpose": "Stage 2 foundational storage, RLS, graph and public evidence schema",
+      "expected_post_migration_schema_version": "stage2-storage-v1",
+      "sha256": "36ca51f8456d08765b7ddaff4238737812a0ed4dffa68d0319b3e6f85ec1eeb4"
+    },
+    {
+      "order": 2,
+      "migration": "20260910000200_protect_workspace_owner.sql",
+      "purpose": "Protect authenticated workspace ownership",
+      "expected_post_migration_schema_version": "stage2-owner-protection-v1",
+      "sha256": "8ae66eaf9172fe0a26c1ba57b54f39b72381463ba144fa44e2b7afa5a2c90a18"
+    },
+    {
+      "order": 3,
+      "migration": "20260911000100_bind_public_release_provenance.sql",
+      "purpose": "Bind public release provenance",
+      "expected_post_migration_schema_version": "stage2-release-provenance-v1",
+      "sha256": "f6044ac5eb81f1b9046b8e9380a627375e27a6a2329a7141820c08463420ce03"
+    },
+    {
+      "order": 4,
+      "migration": "20260911000200_workspace_lifecycle.sql",
+      "purpose": "Workspace lifecycle and deletion",
+      "expected_post_migration_schema_version": "stage2-workspace-lifecycle-v1",
+      "sha256": "0befb04bb94db097a1a5adbe345f7ff048214422d7f1f8eab0141ed818008bdd"
+    },
+    {
+      "order": 5,
+      "migration": "20260911000300_workspace_owner_visibility.sql",
+      "purpose": "Owner visibility hardening",
+      "expected_post_migration_schema_version": "stage2-owner-visibility-v1",
+      "sha256": "88c09fc454f659cd897bf450fc48333d0c314d12dcf970b385b51580f71b31d0"
+    },
+    {
+      "order": 6,
+      "migration": "20260911000400_owner_only_episode_boundary.sql",
+      "purpose": "Owner-only care episode boundary",
+      "expected_post_migration_schema_version": "stage2-owner-episode-v1",
+      "sha256": "10e28911a06de6bb8a8d15edad258b1fa59ba8362f671e0dc587354e57cffb29"
+    },
+    {
+      "order": 7,
+      "migration": "20260911000500_journey_state_invariants.sql",
+      "purpose": "Journey-state invariants",
+      "expected_post_migration_schema_version": "stage3-journey-invariants-v1",
+      "sha256": "98b1fd5ae1055ea9fcf2c908019254c7c4a72af7e76f7682db7d761b6523cdf1"
+    },
+    {
+      "order": 8,
+      "migration": "20260911000600_personal_dependency_invalidation.sql",
+      "purpose": "Personal dependency invalidation",
+      "expected_post_migration_schema_version": "stage3-dependency-invalidation-v1",
+      "sha256": "97eecf85b5c13940d7906829dca0b2b7d8f39f998ced2a3d99eb8173f203d15e"
+    },
+    {
+      "order": 9,
+      "migration": "20260911000700_versioned_demo_workspaces.sql",
+      "purpose": "Versioned fictional demo workspaces",
+      "expected_post_migration_schema_version": "stage3-demo-workspaces-v1",
+      "sha256": "0ca70041e0051714e14386add8e93e8d41e932f90db4b4f77681a2323a379d02"
+    },
+    {
+      "order": 10,
+      "migration": "20260911000800_enforce_storage_first_documents.sql",
+      "purpose": "Storage-first document boundary",
+      "expected_post_migration_schema_version": "stage4-storage-first-v1",
+      "sha256": "56d241d055e1f1d19096f373f823577d96d323f6fafb02bbf291642e300009b3"
+    },
+    {
+      "order": 11,
+      "migration": "20260911000900_stage3_onboarding_commit.sql",
+      "purpose": "Authenticated onboarding commit",
+      "expected_post_migration_schema_version": "stage3-onboarding-commit-v1",
+      "sha256": "388933d4661148e34e42cebe6b9984ed858dfbaa84a78cddd680ab7b6fa03531"
+    },
+    {
+      "order": 12,
+      "migration": "20260911001000_stage3_exit_hardening.sql",
+      "purpose": "Stage 3 exit hardening",
+      "expected_post_migration_schema_version": "stage3-exit-v1",
+      "sha256": "e5b63e2e5a3b7ce4fb6f14ca8149d50339793761f91162e75bc1cdd5ebc4f2fe"
+    },
+    {
+      "order": 13,
+      "migration": "20260911001100_stage4_document_confirmation.sql",
+      "purpose": "Document confirmation and supersession",
+      "expected_post_migration_schema_version": "stage4-document-confirmation-v1",
+      "sha256": "ae8d9cb2ddf629e4ca359b6a34816db95476e74b48c79b9470b3bc081568f528"
+    },
+    {
+      "order": 14,
+      "migration": "20260911001200_stage4_api_role_hardening.sql",
+      "purpose": "Document API role hardening",
+      "expected_post_migration_schema_version": "stage4-api-hardening-v1",
+      "sha256": "c0720cdd99f324a63d4b9c6db1a8f271ca92c1b22fe567b7f64e32253ffb5349"
+    },
+    {
+      "order": 15,
+      "migration": "20260911001300_stage5_hybrid_retrieval.sql",
+      "purpose": "Hybrid retrieval, graph and authenticated retrieval RPCs",
+      "expected_post_migration_schema_version": "stage5-retrieval-v1",
+      "sha256": "05cc8fd1db3ebda5af4c459a505a2df11ab39ddc4061ec39017ce4b8d3edd4fb"
+    },
+    {
+      "order": 16,
+      "migration": "20260912000100_stage10_state_review_lifecycle.sql",
+      "purpose": "Authorized state, plan, follow-up and simulated-review lifecycle",
+      "expected_post_migration_schema_version": "stage10-lifecycle-v1",
+      "sha256": "b445feda8386a278062f00d9d7ee9b84cd77ec853a27be445be80fcd1efacd5b"
+    },
+    {
+      "order": 17,
+      "migration": "20260912000200_stage10_rpc_hardening_and_reset.sql",
+      "purpose": "Stage 10 RPC shape hardening and reset support",
+      "expected_post_migration_schema_version": "stage10-rpc-hardened-v1",
+      "sha256": "de0d2692a0f06303b814964fa4cf9d9808e83f3ade6ea7826a7102e853619943"
+    },
+    {
+      "order": 18,
+      "migration": "20260916000100_controlled_corpus_import.sql",
+      "purpose": "Preserve review-required recovered corpus and operator import receipts",
+      "expected_post_migration_schema_version": "controlled-corpus-import-v1",
+      "sha256": "48153e58260b2fe67a27d2626f589283b6758ae7852ec5855e291a9dd45f3d88"
+    },
+    {
+      "order": 19,
+      "migration": "20260916000200_operator_development_index.sql",
+      "purpose": "Private operator development indexing; publication unchanged",
+      "expected_post_migration_schema_version": "operator-development-index-v1",
+      "sha256": "793a6138e5a2488eb8cefcb907a58c3d21e167f73458db84805453a0ccdb06a9"
+    }
+  ],
+  "supported_paths": {
+    "clean_install": [
+      "20260910000100_stage2_storage.sql",
+      "20260910000200_protect_workspace_owner.sql",
+      "20260911000100_bind_public_release_provenance.sql",
+      "20260911000200_workspace_lifecycle.sql",
+      "20260911000300_workspace_owner_visibility.sql",
+      "20260911000400_owner_only_episode_boundary.sql",
+      "20260911000500_journey_state_invariants.sql",
+      "20260911000600_personal_dependency_invalidation.sql",
+      "20260911000700_versioned_demo_workspaces.sql",
+      "20260911000800_enforce_storage_first_documents.sql",
+      "20260911000900_stage3_onboarding_commit.sql",
+      "20260911001000_stage3_exit_hardening.sql",
+      "20260911001100_stage4_document_confirmation.sql",
+      "20260911001200_stage4_api_role_hardening.sql",
+      "20260911001300_stage5_hybrid_retrieval.sql",
+      "20260912000100_stage10_state_review_lifecycle.sql",
+      "20260912000200_stage10_rpc_hardening_and_reset.sql",
+      "20260916000100_controlled_corpus_import.sql",
+      "20260916000200_operator_development_index.sql"
+    ],
+    "stage4_to_current": [
+      "20260911001300_stage5_hybrid_retrieval.sql",
+      "20260912000100_stage10_state_review_lifecycle.sql",
+      "20260912000200_stage10_rpc_hardening_and_reset.sql",
+      "20260916000100_controlled_corpus_import.sql",
+      "20260916000200_operator_development_index.sql"
+    ],
+    "stage9_to_current": [
+      "20260912000100_stage10_state_review_lifecycle.sql",
+      "20260912000200_stage10_rpc_hardening_and_reset.sql",
+      "20260916000100_controlled_corpus_import.sql",
+      "20260916000200_operator_development_index.sql"
+    ]
+  }
+}

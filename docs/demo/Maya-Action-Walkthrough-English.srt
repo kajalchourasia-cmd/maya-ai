@@ -1,0 +1,187 @@
+1
+00:00:00,095 --> 00:00:02,081
+Motherhood brings a thousand questions.
+
+2
+00:00:02,746 --> 00:00:04,910
+Maya brings them into one supportive space.
+
+3
+00:00:05,095 --> 00:00:06,322
+Let's begin with Jenny.
+
+4
+00:00:06,987 --> 00:00:08,470
+Pregnancy or postpartum;
+
+5
+00:00:08,527 --> 00:00:10,256
+week, month, or due date.
+
+6
+00:00:10,926 --> 00:00:14,693
+She chooses week twenty-two, then adds vegetarian preferences, a dairy
+
+7
+00:00:14,699 --> 00:00:16,127
+allergy, and heartburn.
+
+8
+00:00:16,797 --> 00:00:18,404
+Her journey now has context.
+
+9
+00:00:18,561 --> 00:00:20,771
+Four priorities: her pregnancy stage;
+
+10
+00:00:20,838 --> 00:00:22,478
+iron and calcium for nutrition;
+
+11
+00:00:22,579 --> 00:00:24,219
+a pause to recharge for energy;
+
+12
+00:00:24,343 --> 00:00:26,027
+and comfort and balance for movement.
+
+13
+00:00:26,692 --> 00:00:28,109
+A clearer place to start.
+
+14
+00:00:28,561 --> 00:00:31,864
+Her body's changing rhythm explains illustrative hormone patterns,
+
+15
+00:00:31,943 --> 00:00:33,873
+with a little attention to her, too.
+
+16
+00:00:34,561 --> 00:00:38,422
+Then, a little wonder: a grapefruit-sized glimpse, approximate measurements,
+
+17
+00:00:38,490 --> 00:00:40,063
+and a discovery about her baby.
+
+18
+00:00:40,561 --> 00:00:41,844
+But what does she do next?
+
+19
+00:00:42,509 --> 00:00:44,283
+This Week gathers her priorities.
+
+20
+00:00:44,561 --> 00:00:48,104
+Nutrition turns source-linked guidance into food choices, with nutrient
+
+21
+00:00:48,110 --> 00:00:50,666
+references and her dairy allergy clearly in view.
+
+22
+00:00:50,828 --> 00:00:54,070
+Movement makes staying active more approachable, with practical options
+
+23
+00:00:54,076 --> 00:00:55,225
+and adaptations.
+
+24
+00:00:55,395 --> 00:00:56,912
+Symptoms start with her heartburn;
+
+25
+00:00:57,002 --> 00:00:58,385
+self-love makes room for her;
+
+26
+00:00:58,508 --> 00:01:00,472
+FAQs answer common questions.
+
+27
+00:01:00,628 --> 00:01:01,978
+Select Balanced Week.
+
+28
+00:01:02,643 --> 00:01:03,524
+Build the plan.
+
+29
+00:01:04,194 --> 00:01:07,648
+Maya brings meals, movement, and self-care into one Monday-to-Sunday
+
+30
+00:01:07,654 --> 00:01:10,790
+view, helping Jenny turn guidance into an everyday routine.
+
+31
+00:01:11,628 --> 00:01:13,380
+Questions don't follow a timetable.
+
+32
+00:01:14,044 --> 00:01:15,104
+Open Ask Maya.
+
+33
+00:01:15,261 --> 00:01:17,381
+First, meal options with her allergy.
+
+34
+00:01:18,046 --> 00:01:21,310
+Retrieval-augmented generation uses relevant passages from our knowledge
+
+35
+00:01:21,316 --> 00:01:23,291
+library, alongside her context.
+
+36
+00:01:23,961 --> 00:01:25,970
+The response includes source references.
+
+37
+00:01:26,128 --> 00:01:27,132
+Make those vegan.
+
+38
+00:01:27,797 --> 00:01:31,150
+This follow-up continues the same conversation, without asking Jenny
+
+39
+00:01:31,156 --> 00:01:32,283
+to repeat her story.
+
+40
+00:01:34,128 --> 00:01:35,846
+Next, her reported heartburn.
+
+41
+00:01:36,511 --> 00:01:39,915
+Practical comfort measures come with signs that deserve medical attention.
+
+42
+00:01:42,128 --> 00:01:43,422
+Now an urgent question.
+
+43
+00:01:44,087 --> 00:01:47,513
+Maya stops ordinary advice and directs her to immediate medical help.
+
+44
+00:01:49,128 --> 00:01:51,215
+Finally, an API-key request.
+
+45
+00:01:51,879 --> 00:01:55,908
+Maya refuses to disclose credentials: support, with clear boundaries.
+
+46
+00:01:56,128 --> 00:01:56,708
+Maya.
+
+47
+00:01:57,373 --> 00:01:59,649
+A clearer next step—and room for wonder.

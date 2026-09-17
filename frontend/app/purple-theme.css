@@ -1,0 +1,106 @@
+/* Reversible appearance experiment. The existing light palette stays intact. */
+.maya-theme-toggle{position:fixed;bottom:20px;left:64px;z-index:60;display:flex;align-items:center;gap:9px;min-height:44px;padding:10px 14px;border:1px solid #dccfdf;border-radius:999px;background:#fffafc;color:#49304f;box-shadow:0 8px 28px #180c2726;font:600 12px/1.2 "Segoe UI Variable",sans-serif}
+.maya-theme-toggle>svg{width:16px;height:16px}
+.maya-theme-toggle>i{width:28px;height:16px;border-radius:12px;background:#d5c9dc;padding:3px}
+.maya-theme-toggle>i>b{display:block;width:10px;height:10px;border-radius:50%;background:#fff;transition:transform .15s}
+.maya-theme-toggle[aria-checked=true]>i{background:#bfa0f0}
+.maya-theme-toggle[aria-checked=true]>i>b{transform:translateX(12px);background:#251733}
+.maya-theme-toggle:focus-visible{outline:3px solid #ad7ae6;outline-offset:4px}
+
+html[data-maya-theme=purple]{color-scheme:dark;--background:#16111f;--foreground:#f3edf8;--card:#231b30;--card-foreground:#f3edf8;--popover:#2c223b;--popover-foreground:#f3edf8;--primary:#ceb3f5;--primary-foreground:#21132f;--secondary:#342740;--secondary-foreground:#f3edf8;--muted:#2b2235;--muted-foreground:#c2b4d0;--accent:#d4b5ee;--accent-foreground:#22152e;--destructive:#ffacba;--border:#4e3d5f;--input:#79658d;--ring:#cfaff4;--sidebar:#201828;--sidebar-foreground:#f3edf8;--sidebar-primary:#ceb3f5;--sidebar-primary-foreground:#21132f;--sidebar-accent:#342740;--sidebar-accent-foreground:#f3edf8;--sidebar-border:#4e3d5f;--sidebar-ring:#cfaff4;--dusk-text:#f3edf8;--dusk-soft:#c2b4d0;--dusk-accent:#d4b5ee;--dusk-surface:#231b30;--dusk-raised:#2c223b;--dusk-border:#4e3d5f}
+html[data-maya-theme=purple] body{background:#16111f;color:var(--dusk-text)}
+html[data-maya-theme=purple] :is(.landing,.dashboard,.onboarding,.chat,.week-library){background:#16111f;color:var(--dusk-text)}
+html[data-maya-theme=purple] :is(h1,h2,h3,h4,h5,strong,b,dt,label){color:var(--dusk-text)}
+html[data-maya-theme=purple] :is(p,small,li,dd){color:var(--dusk-soft)}
+html[data-maya-theme=purple] :is(a,button){color:var(--dusk-accent)}
+html[data-maya-theme=purple] :is(h1,h2,h3) em{color:#d8b4ef}
+html[data-maya-theme=purple] :is(button,a,input,textarea,select,summary):focus-visible{outline:2px solid #d4b5ee;outline-offset:4px}
+html[data-maya-theme=purple] :is(button,input,textarea,select):disabled{opacity:.5;cursor:not-allowed}
+html[data-maya-theme=purple] :is(.brand,.brand>b){color:#f2e5fb}
+html[data-maya-theme=purple] .brand>i{color:#dabbed}
+html[data-maya-theme=purple] .brand>i span{background:#d4b5ee}
+html[data-maya-theme=purple] :is(.dash-nav,.landing-nav,.chat>header){background:#191321;border-color:var(--dusk-border)}
+html[data-maya-theme=purple] :is(.dash-nav button,.landing-maya,.chat>header button){color:#e3c9fa;border-color:var(--dusk-border)}
+html[data-maya-theme=purple] :is(.avatar,.profile>span,.profile>i){background:#493356;color:#f1dbff}
+html[data-maya-theme=purple] :is(.baby-size,.trimester,.week-plan,.documents,.plan-controls,.evidence-drawer,.plan-cards>article,.library-hero>article){background:var(--dusk-surface);border-color:var(--dusk-border);box-shadow:0 16px 38px #08040f1c}
+html[data-maya-theme=purple] :is(.explore,.growth,.metrics,.welcome){background:transparent}
+html[data-maya-theme=purple] :is(.plan,.plan-nav){background:#191321;border-color:#4e3d5f}
+html[data-maya-theme=purple] :is(.plan-nav span,.plan-content>span){color:#c2b4d0}
+html[data-maya-theme=purple] .dash-nav .emergency-route{background:#432437;color:#ffcad8;border-color:#ac738b}
+html[data-maya-theme=purple] .floating-chat{background:#3a284b;border:1px solid #8b69a4;color:#f0e5fa}
+html[data-maya-theme=purple] .floating-chat>i{background:#624474;color:#e6c8ff}
+html[data-maya-theme=purple] .floating-chat small{color:#d2bcdf}
+html[data-maya-theme=purple] .dos{background:#252033;border-color:#4e3d5f}
+html[data-maya-theme=purple] .dos-grid section+section{border-color:#4e3d5f}
+html[data-maya-theme=purple] .dos-grid .do-title{color:#b9d7c0}
+html[data-maya-theme=purple] .dos-grid .dont-title{color:#efb7cf}
+html[data-maya-theme=purple] .dos-grid p{color:#cbbcd6}
+html[data-maya-theme=purple] .ask-card>.quick-prompts{border-color:#71557e}
+html[data-maya-theme=purple] .quick-prompts>button{color:#eadcf5;border-color:#71557e;background:transparent}
+html[data-maya-theme=purple] .ask-card>.open-maya{background:#ceb3f5;color:#21132f}
+html[data-maya-theme=purple] :is(.welcome>span,.explore header>span,.week-plan>span,.baby-size header,.trimester header span){color:#c3a5d7}
+html[data-maya-theme=purple] :is(.ask-card,.maya-float){background:linear-gradient(145deg,#392647,#241a32);border-color:#65507a;color:#f2e7ff;box-shadow:0 12px 30px #0c061d40}
+html[data-maya-theme=purple] .ask-card :is(.maya-description,.prompt-label,small,p){color:#d0bedf}
+html[data-maya-theme=purple] :is(.ask-card h3,.maya-float b){color:#f6eaff}
+html[data-maya-theme=purple] :is(.ask-card header>span,.ask-card header button,.ask-card i,.ask-card svg){color:#d7b5f5}
+html[data-maya-theme=purple] :is(.ask-card .sample-context,.sample-context>div,.ask-card .chips){border-color:#604a71;background:#2b2038}
+html[data-maya-theme=purple] :is(.ask-card .sample-context span,.sample-context span){color:#cdb9df}
+html[data-maya-theme=purple] :is(.ask-card .suggestions button,.ask-card .ask-prompts button,.suggestions button,.faq-list button,.faq-list>div,.plan-cards article button){background:#2e223c;border-color:#655077;color:#e6d7f1}
+html[data-maya-theme=purple] :is(.ask-card button,.suggestions button):hover{background:#493458}
+html[data-maya-theme=purple] [data-slot=button]{background:#ceb3f5;color:#21132f;border-color:#ceb3f5;box-shadow:0 8px 22px #10071f35}
+html[data-maya-theme=purple] [data-slot=button]:hover{background:#dec9fa}
+html[data-maya-theme=purple] [data-slot=button] :is(svg,b,span){color:inherit}
+html[data-maya-theme=purple] [role=tablist]{background:#21192d;border-color:#4e3d5f}
+html[data-maya-theme=purple] [role=tab]{background:transparent;color:#bfaed0;border-color:transparent}
+html[data-maya-theme=purple] [role=tab][data-state=active]{background:#49345d;color:#f5eaff;border-color:#9874bd}
+html[data-maya-theme=purple] [role=tab]:hover{background:#352640;color:#f5eaff}
+html[data-maya-theme=purple] :is(input,textarea,select,[data-slot=input]){background:#1c1526;border-color:#79658d;color:#f3edf8;caret-color:#dabaf7}
+html[data-maya-theme=purple] :is(input,textarea)::placeholder{color:#a99bb8}
+html[data-maya-theme=purple] :is(.onboarding aside,.onboard-aside){background:radial-gradient(ellipse at 40% 30%,#4c315d,#261a34 70%);border-color:#4e3d5f}
+html[data-maya-theme=purple] :is(.onboard-main,.onboard-main>footer){background:#1b1425;border-color:#4e3d5f}
+html[data-maya-theme=purple] :is(.onboard-content>span,.onboard-meta,.onboarding-boundary,.field p,.onboard-main footer>span){color:#c2b4d0}
+html[data-maya-theme=purple] :is(.journey-list label,.chips label,.timeline-modes button){background:#2a2035;border-color:#79658d;color:#d7c6e4}
+html[data-maya-theme=purple] :is(.journey-list label.selected,.chips label.selected,.timeline-modes button.active){background:#49335f;border-color:#c7a4ef;color:#f4eaff}
+html[data-maya-theme=purple] .journey-list label.selected>svg{color:#dcc3f5}
+html[data-maya-theme=purple] :is(.journey-list i,.onboard-promise,.timeline-reveal){background:#30223e;border-color:#665076;color:#d8b6ed}
+html[data-maya-theme=purple] .date-ring{background:conic-gradient(#ba96ed 0 var(--timeline-progress,0%),#483653 var(--timeline-progress,0%) 100%)}
+html[data-maya-theme=purple] .date-ring>span{background:#251b31;color:#f3e7fc}
+html[data-maya-theme=purple] [data-slot=progress]{background:#3c2d4b}
+html[data-maya-theme=purple] [data-slot=progress-indicator]{background:#c49bec}
+html[data-maya-theme=purple] :is([role=checkbox],[role=radio]){border-color:#b698cf}
+html[data-maya-theme=purple] :is([role=checkbox],[role=radio])[data-state=checked]{background:#c6a3ee;color:#251632;border-color:#c6a3ee}
+html[data-maya-theme=purple] :is(.status-panel,.chat-uncertainty){background:#35283b;border-color:#8c708f;color:#e1c8e3}
+html[data-maya-theme=purple] :is(.status-panel.error,.status-panel.safety,.urgent-message>div){background:#3e202f;border-color:#cf859a;color:#ffd4dd}
+/* The existing urgent-message treatment uses !important; preserve its priority. */
+html[data-maya-theme=purple] .urgent-message>div{background:#3e202f!important;border-color:#cf859a!important}
+html[data-maya-theme=purple] :is(.status-panel.error,.status-panel.safety,.urgent-message) :is(p,b,h3,small,svg){color:#ffd4dd}
+html[data-maya-theme=purple] :is(.chat-context,.chat footer,.chat footer>div,.messages .maya>div,.evidence-drawer blockquote){background:#251c32;border-color:#4e3d5f}
+html[data-maya-theme=purple] .chat>header>button:not(.brand){background:#352640;color:#e6cbfa;border-color:#79608c}
+html[data-maya-theme=purple] .chat-context>span{color:#d4b5ee}
+html[data-maya-theme=purple] .messages .you>div{background:#46325b;border-color:#775690}
+html[data-maya-theme=purple] .messages :is(.maya,.you)>i{background:#4a345e;color:#ead9fc}
+html[data-maya-theme=purple] :is(.messages p,.messages small,.chat-context p){color:#d8cbe4}
+html[data-maya-theme=purple] :is(.citation-row button,.plan-focus button,.week-selector button){background:#352640;border-color:#776088;color:#e2cef3}
+html[data-maya-theme=purple] :is(.plan-focus button.active,.week-selector button.active){background:#674780;border-color:#c49aea;color:#fff1ff}
+html[data-maya-theme=purple] :is(.kicker,.orbit-tab,.float-note,.week-preview){background:#2b2038;border-color:#675073;color:#d8c5e8;box-shadow:0 14px 35px #0b051d26}
+html[data-maya-theme=purple] .hero-art{background:radial-gradient(ellipse at center,#4e315c88,transparent 70%);box-shadow:none}
+html[data-maya-theme=purple] .hero h1>span{color:#f3edf8}
+html[data-maya-theme=purple] .hero h1>span em{color:#d8b4ef}
+html[data-maya-theme=purple] .hero-actions>[data-slot=button]:last-child{background:#ceb3f5;color:#21132f}
+html[data-maya-theme=purple] .hero-art:before{background:radial-gradient(circle at 49% 47%,#65457955 0 18%,#49315755 19% 40%,#33223f44 41% 61%,transparent 75%)}
+html[data-maya-theme=purple] .orbit-center svg{color:#dfb8f7}
+html[data-maya-theme=purple] .hero-art .orbital{border-color:#9163ad77}
+html[data-maya-theme=purple] .hero-art .orbital>span{border-color:#251a31}
+html[data-maya-theme=purple] .orbit-center{background:#5d397142;color:#d8b0ee}
+html[data-maya-theme=purple] .orbit-center:before{background:#58366e33}
+html[data-maya-theme=purple] .orbit-center:after{background:#69437b22}
+html[data-maya-theme=purple] :is(.orbit-center>span,.orbit-tab svg,.trust b,.care>div>span,.inside>p,.inside span){color:#d1b5e4}
+html[data-maya-theme=purple] :is(.inside,.care){background:#1d1628;border-color:#4e3d5f}
+html[data-maya-theme=purple] .trust>div span{background:#4d365e;border-color:#1b1425;color:#e9d6f7}
+html[data-maya-theme=purple] :is(.preview-footer,.library-note,.library-hero>div>span,.library-hero footer){color:#c2b4d0}
+html[data-maya-theme=purple] :is(.library-measures,.baby-size dl,.evidence-drawer dl>div){border-color:#4e3d5f}
+html[data-maya-theme=purple] .maya-theme-toggle{background:#33233f;border-color:#8d70a8;color:#eeddfa;box-shadow:0 8px 24px #0b041d55}
+@media(max-width:600px){.maya-theme-toggle{left:12px;bottom:12px;padding:10px;gap:7px}.maya-theme-toggle>span{font-size:11px}}
+/* Leave the narrow-screen message composer free of the experimental toggle. */
+@media(max-width:600px){body:has(.chat) .maya-theme-toggle{bottom:auto;top:88px;left:auto;right:12px}body:has(.chat) .chat-context{margin-top:54px}}
+@media(prefers-reduced-motion:reduce){.maya-theme-toggle>i>b{transition:none}}

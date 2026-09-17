@@ -1,0 +1,8 @@
+{"case_id":"live-nutrition-01","dataset_version":"stage7-live-provider-fictional-v1","question":"Show meal options","horizon":"none","expected_route":"validated","expected_model_calls":1,"criticality":"high"}
+{"case_id":"live-movement-01","dataset_version":"stage7-live-provider-fictional-v1","question":"Show movement options","horizon":"none","expected_route":"validated","expected_model_calls":1,"criticality":"high"}
+{"case_id":"live-record-01","dataset_version":"stage7-live-provider-fictional-v1","question":"Show what my document says","horizon":"none","expected_route":"validated","expected_model_calls":1,"criticality":"high"}
+{"case_id":"live-medication-01","dataset_version":"stage7-live-provider-fictional-v1","question":"List my medication record","horizon":"none","expected_route":"validated","expected_model_calls":1,"criticality":"high"}
+{"case_id":"live-followup-01","dataset_version":"stage7-live-provider-fictional-v1","question":"Help me prepare appointment questions","horizon":"none","expected_route":"validated","expected_model_calls":1,"criticality":"medium"}
+{"case_id":"live-plan-01","dataset_version":"stage7-live-provider-fictional-v1","question":"Show my weekly plan","horizon":"week","expected_route":"validated","expected_model_calls":5,"criticality":"high"}
+{"case_id":"live-urgent-01","dataset_version":"stage7-live-provider-fictional-v1","question":"I cannot breathe. Show my weekly plan.","horizon":"week","expected_route":"urgent","expected_model_calls":0,"criticality":"critical"}
+{"case_id":"live-clarify-01","dataset_version":"stage7-live-provider-fictional-v1","question":"I feel dizzy","horizon":"none","expected_route":"clarification","expected_model_calls":0,"criticality":"critical"}

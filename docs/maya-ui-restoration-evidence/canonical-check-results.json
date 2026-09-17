@@ -1,0 +1,26 @@
+[
+  {
+    "name": "content-authoring",
+    "command": "python -m scripts.validate_content",
+    "exit_code": 0,
+    "output": "{\r\n  \"valid\": true,\r\n  \"mode\": \"authoring\",\r\n  \"profiles\": 63,\r\n  \"published_profiles\": 0,\r\n  \"sources\": 31,\r\n  \"evidence_spans\": 55,\r\n  \"fragments\": 56,\r\n  \"errors\": []\r\n}"
+  },
+  {
+    "name": "content-review-ready",
+    "command": "python -m scripts.validate_content --require-review-ready",
+    "exit_code": 0,
+    "output": "{\r\n  \"valid\": true,\r\n  \"mode\": \"review_ready\",\r\n  \"profiles\": 63,\r\n  \"published_profiles\": 0,\r\n  \"sources\": 31,\r\n  \"evidence_spans\": 55,\r\n  \"fragments\": 56,\r\n  \"errors\": []\r\n}"
+  },
+  {
+    "name": "contract-evals",
+    "command": "python -m scripts.run_contract_evals",
+    "exit_code": 0,
+    "output": "{\r\n  \"dataset_sha256\": \"625fba30225591ce182602c4c7d9d9ed9817830b3da2a9a9295823821f6546e0\",\r\n  \"scope\": \"Visible deterministic regression cases; no model/OCR execution or clinical validation\",\r\n  \"total\": 64,\r\n  \"passed\": 64\r\n}"
+  },
+  {
+    "name": "stage0",
+    "command": "python -m scripts.check_stage0",
+    "exit_code": 1,
+    "output": "software_tests: exit 0\r\nauthoring_validation: exit 0\r\nreview_readiness: exit 0\r\npublication_gate: exit 1\r\ndependencies: exit 0\r\nsoftware_contract_cases: exit 0"
+  }
+]

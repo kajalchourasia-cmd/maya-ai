@@ -1,0 +1,142 @@
+{
+  "branch": "integration/capstone-demo-final",
+  "findings": [
+    {
+      "evidence": "A shared row trigger referenced fields absent from some trigger tables during clean replay.",
+      "first_status": "FAIL",
+      "id": "S10-SR-001",
+      "post_status": "PASS",
+      "rectification": "Split invalidation into journey, fact, symptom, medication and evidence table-specific trigger functions with bounded dependency lookup.",
+      "requirement": "Multi-table dependency invalidation must be safe and selective",
+      "severity": "high"
+    },
+    {
+      "evidence": "New required owner/journey columns made an accepted Stage 2 fixture insert invalid.",
+      "first_status": "FAIL",
+      "id": "S10-SR-002",
+      "post_status": "PASS",
+      "rectification": "Added database-derived owner/journey binding triggers and retained strict foreign keys.",
+      "requirement": "Existing plans and reviews must bind authenticated owner and current journey truth",
+      "severity": "high"
+    },
+    {
+      "evidence": "The initial UI integration exposed only a version snapshot, not committed fact/plan/task/review records.",
+      "first_status": "FAIL",
+      "id": "S10-SR-003",
+      "post_status": "PASS",
+      "rectification": "Added owner-only stage10_durable_state RPC, authenticated client method and UI reload on each authenticated render.",
+      "requirement": "Refresh and relogin must reload durable truth",
+      "severity": "high"
+    },
+    {
+      "evidence": "Plan user_edits initially accepted untyped dictionaries.",
+      "first_status": "FAIL",
+      "id": "S10-SR-004",
+      "post_status": "PASS",
+      "rectification": "Added strict ValidatedPlanEdit schema, trace requirement, item/field matching and transactional SQL enforcement.",
+      "requirement": "User edits must pass the accepted Stage 8 validation boundary",
+      "severity": "high"
+    },
+    {
+      "evidence": "A syntactically valid plan could omit a confirmed allergy dependency.",
+      "first_status": "FAIL",
+      "id": "S10-SR-005",
+      "post_status": "PASS",
+      "rectification": "Both committers require dependencies for every active confirmed allergy, restriction and clinician instruction.",
+      "requirement": "A plan cannot omit active confirmed hard constraints",
+      "severity": "high"
+    },
+    {
+      "evidence": "A correction invalidated only the new material key and could leave a plan linked to superseded truth active.",
+      "first_status": "FAIL",
+      "id": "S10-SR-006",
+      "post_status": "PASS",
+      "rectification": "Correction commits invalidate the old fact identity/material dependency and new confirmed dependency atomically.",
+      "requirement": "Corrections must invalidate dependencies on superseded truth",
+      "severity": "high"
+    },
+    {
+      "evidence": "Earlier authenticated direct CRUD policies remained on Stage 10-owned tables.",
+      "first_status": "FAIL",
+      "id": "S10-SR-007",
+      "post_status": "PASS",
+      "rectification": "Replaced direct mutation policies with owner-read policies and the authenticated State Committer RPC.",
+      "requirement": "Only the State Committer may mutate confirmed facts and plans",
+      "severity": "high"
+    },
+    {
+      "evidence": "Stage 4 UI smoke reproduced an uncaught network error from durable-state loading.",
+      "first_status": "FAIL",
+      "id": "S10-SR-008",
+      "post_status": "PASS",
+      "rectification": "The client emits a typed recoverable failure and the UI renders an honest unavailable state.",
+      "requirement": "Offline UI checks must show recoverable unavailability",
+      "severity": "medium"
+    },
+    {
+      "evidence": "Clean pgTAP exposed an ambiguous JSON dependency alias inside PL/pgSQL.",
+      "first_status": "FAIL",
+      "id": "S10-SR-009",
+      "post_status": "PASS",
+      "rectification": "Renamed the alias and replayed both clean and exact upgrade histories.",
+      "requirement": "Migration SQL must compile on clean and upgrade histories",
+      "severity": "medium"
+    },
+    {
+      "evidence": "The legacy Stage 2 file required direct CRUD that Stage 10 intentionally revokes and stopped at assertion 32/122.",
+      "first_status": "FAIL",
+      "id": "S10-SR-010",
+      "post_status": "PASS",
+      "rectification": "Preserved all 122 assertions while making post-Stage-10 expectations verify owner reads and denial of direct writes; State Committer pgTAP remains separate.",
+      "requirement": "All earlier pgTAP regressions remain meaningful and green under the Stage 10 write boundary",
+      "severity": "high"
+    },
+    {
+      "evidence": "The original SQL implementation validated required values but did not enforce exact nested object keys or a bounded request size.",
+      "first_status": "FAIL",
+      "id": "S10-SR-011",
+      "post_status": "PASS",
+      "rectification": "Added an authenticated strict wrapper with exact top-level and per-kind nested allowlists, a 64 KiB limit and private implementation isolation.",
+      "requirement": "The JSONB RPC must reject unknown, forged and oversized command shapes before mutation",
+      "severity": "high"
+    },
+    {
+      "evidence": "Stale-state errors used SQLSTATE 40001, causing PostgREST to retry the deterministic rejection until the HTTP client timed out.",
+      "first_status": "FAIL",
+      "id": "S10-SR-012",
+      "post_status": "PASS",
+      "rectification": "The forward hardening migration maps deterministic stale conflicts to PT409; simultaneous authenticated HTTP races now return one commit and one rejection.",
+      "requirement": "A stale API command must return a bounded conflict response",
+      "severity": "high"
+    },
+    {
+      "evidence": "Self-referential fact/plan history and private ledgers had no explicit deletion-order contract or machine-readable inventory.",
+      "first_status": "FAIL",
+      "id": "S10-SR-013",
+      "post_status": "PASS",
+      "rectification": "Added a pre-delete cleanup trigger, 13-object retention inventory, two-principal reset checks, orphan checks and recreated-workspace idempotency isolation.",
+      "requirement": "Workspace reset removes all scoped durable and derived state without cross-workspace impact",
+      "severity": "high"
+    },
+    {
+      "evidence": "The reset helper removed stage9_demo_* keys but left stage10_demo_* commit/idempotency state.",
+      "first_status": "FAIL",
+      "id": "S10-SR-014",
+      "post_status": "PASS",
+      "rectification": "Reset now clears both demo prefixes and the regression proves personal keys remain untouched.",
+      "requirement": "Demo reset must not retain Stage 10 fixture state or clear Personal Mode state",
+      "severity": "high"
+    }
+  ],
+  "integration_branch_base": "e2a8c542648f97c9bb93d73528f2414a4f41e5c8",
+  "review_kind": "single_consolidated_self_review",
+  "reviewed_stage10_checkpoint": "a044ecb8fd2be9c7986c8401367956f85bcbd3e6",
+  "schema_version": "10.0.0",
+  "summary": {
+    "findings": 14,
+    "post_blocked": 0,
+    "post_fail": 0,
+    "post_pass": 14,
+    "verdict": "GO_PENDING_COMPLETE_CONSOLIDATED_VERIFICATION"
+  }
+}

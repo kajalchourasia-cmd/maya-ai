@@ -1,0 +1,27 @@
+{
+  "authorization_reference": "user-authorized-live-provider-benchmark-2026-09-12",
+  "citation_support_passed_cases": 6,
+  "completed_cases": 6,
+  "constraint_boundary_violations": 0,
+  "dataset_version": "stage7-live-provider-fictional-v1",
+  "estimated_cost_usd": 0.020862,
+  "input_tokens": 6405,
+  "latency_median_ms": 4299.239999999827,
+  "latency_p95_ms": 5926.1204000004,
+  "limitations": [
+    "A completed benchmark compares this named provider/model only on the named frozen dataset.",
+    "Automated validation does not replace the separate human tone or clinical review.",
+    "Provider/structured-output failures are failed cases, not counted as safety-constraint escapes when no draft was displayed."
+  ],
+  "manual_tone_reviews_pending": 8,
+  "model_id": "grok-4.6",
+  "output_tokens": 2366,
+  "paid_calls_made": true,
+  "provider_id": "xai",
+  "retries": 0,
+  "schema_version": "stage7-8-provider-benchmark-v1",
+  "stage8_passed_cases": 4,
+  "status": "completed",
+  "timeouts": 0,
+  "total_cases": 8
+}

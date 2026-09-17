@@ -1,0 +1,147 @@
+name: Data contracts
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: python -m pip install -r requirements-dev.txt
+      - run: npm ci
+        working-directory: frontend
+      - run: npm run lint
+        working-directory: frontend
+      - run: npm run check:interactions
+        working-directory: frontend
+      - run: node --test tests/*.test.cjs
+        working-directory: frontend
+      - run: npm run build
+        working-directory: frontend
+      - run: npm run typecheck
+        working-directory: frontend
+      - run: python -m pytest -q --junitxml=reports/local/ci-regression.xml
+      - run: python -m scripts.validate_content
+      - run: python -m scripts.validate_content --require-review-ready
+      - run: python -m scripts.run_contract_evals
+      - run: python -m scripts.check_stage1
+      - run: python -m scripts.check_stage2
+      - run: python -m scripts.run_journey_evals
+      - run: python -m scripts.check_stage3_ui
+      - run: python -m scripts.check_stage3
+      - run: python -m scripts.check_stage4_readiness
+      - run: python -m scripts.check_stage4_ui
+      - run: python -m scripts.check_stage4
+      - run: python -m scripts.check_stage5
+      - run: python -m scripts.run_stage5_paraphrase_evals
+      - run: python -m scripts.run_stage6_safety_evals
+      - run: python -m scripts.check_stage6
+      - run: python -m scripts.run_stage7_evals
+      - run: python -m scripts.check_stage7
+      - run: python -m scripts.run_stage8_evals
+      - run: python -m scripts.check_stage8
+      - run: python -m scripts.check_stages5_8_rectification
+      - run: python -m scripts.run_stage9_evals
+      - run: python -m scripts.check_stage9_ui
+      - run: python -m scripts.check_stage9
+      - run: python -m scripts.run_stage10_evals
+      - run: python -m scripts.check_stage10
+      - run: python -m scripts.check_migration_manifest
+      - run: python -m scripts.check_consolidated_improvements
+      - run: python -m scripts.check_secret_hygiene
+      # Release readiness is intentionally a separate gate: draft shells must
+      # remain legal during authoring. Unit tests verify release fails closed.
+
+  supabase-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+
+      - run: pnpm install --frozen-lockfile
+      - name: Start local Supabase
+        run: pnpm exec supabase start
+      - name: Verify exact upgrade from the accepted Stage 9 schema
+        run: |
+          pnpm exec supabase db reset --local --version 20260911001300
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage10_stage9_upgrade.sql
+          pnpm exec supabase migration up --local
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage10_stage9_upgrade_check.sql
+          for test_file in supabase/tests/*.test.sql; do pnpm exec supabase test db --local "$test_file"; done
+          set -a
+          eval "$(pnpm exec supabase status -o env)"
+          set +a
+          python -m scripts.check_stage2_storage_api
+          python -m scripts.check_stage3_onboarding_api
+          python -m scripts.check_stage4_document_api
+          python -m scripts.check_stage5_retrieval_api
+          python -m scripts.check_stage10_state_api
+          python -m scripts.check_stage10_concurrency_and_deletion_api
+          pnpm exec supabase db lint --local
+      - name: Verify exact upgrade from the deployed Stage 4 exit
+        run: |
+          pnpm exec supabase db reset --local --version 20260911001200
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage5_stage4_upgrade.sql
+          pnpm exec supabase migration up --local
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage5_stage4_upgrade_check.sql
+      - name: Verify exact upgrade from the deployed Stage 3 exit
+        run: |
+          pnpm exec supabase db reset --local --version 20260911001000
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage4_legacy_upgrade.sql
+          pnpm exec supabase migration up --local
+          docker exec -i supabase_db_nestline psql -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/fixtures/stage4_legacy_upgrade_check.sql
+          for test_file in supabase/tests/*.test.sql; do pnpm exec supabase test db --local "$test_file"; done
+          set -a
+          eval "$(pnpm exec supabase status -o env)"
+          set +a
+          python -m scripts.check_stage2_storage_api
+          python -m scripts.check_stage3_onboarding_api
+          python -m scripts.check_stage4_document_api
+          python -m scripts.check_stage5_retrieval_api
+          python -m scripts.check_stage10_state_api
+          python -m scripts.check_stage10_concurrency_and_deletion_api
+          pnpm exec supabase db lint --local
+      - name: Verify a clean installation
+        run: |
+          pnpm exec supabase db reset --local
+          for test_file in supabase/tests/*.test.sql; do pnpm exec supabase test db --local "$test_file"; done
+          set -a
+          eval "$(pnpm exec supabase status -o env)"
+          set +a
+          python -m scripts.check_stage2_storage_api
+          python -m scripts.check_stage3_onboarding_api
+          python -m scripts.check_stage4_document_api
+          python -m scripts.check_stage5_retrieval_api
+          python -m scripts.check_stage10_state_api
+          python -m scripts.check_stage10_concurrency_and_deletion_api
+          pnpm exec supabase db lint --local
+      - name: Stop local Supabase
+        if: always()
+        run: pnpm exec supabase stop --no-backup

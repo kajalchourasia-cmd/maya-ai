@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project_name": "Maya AI",
+  "assistant_name": "Ask Maya",
+  "team": "Group 62",
+  "catalogue_checked_on": "2026-09-17",
+  "files": [
+    {
+      "kind": "final_presentation",
+      "path": "docs/presentation/Maya-Group-62-Final-7-Slide-Deck.pptx",
+      "bytes": 4804911,
+      "sha256": "eca5cc5a1c48513161b1a25b5dab6ab94bacd3f071b0bf2a8a6c44df8cfcd0cc",
+      "slide_count": 7,
+      "source": "Later-saved final seven-slide deck supplied locally; copied without content changes",
+      "powerpoint_modified_utc": "2026-09-17T02:51:00Z"
+    },
+    {
+      "kind": "final_demo_video",
+      "path": "docs/demo/Maya-AI-Action-Walkthrough-Jenny-v2.mp4",
+      "bytes": 14275366,
+      "sha256": "52a13ce9aff4adf4d6efc96dccf10a2567bfcc906b2f3bc62ca45f9fc11399eb",
+      "duration_seconds": 119.77,
+      "resolution": "1920x1080",
+      "frames_per_second": 30,
+      "voice": "Microsoft en-US-JennyNeural",
+      "synthetic_profile": true,
+      "processing_waits_shortened": true,
+      "latency_benchmark": false
+    },
+    {
+      "kind": "dashboard_frame_from_final_demo",
+      "path": "docs/demo/maya-dashboard-preview.png",
+      "bytes": 617731,
+      "sha256": "f892fa24dc70635ad29a5a19c6da3b10c214ba2650fd705b29d4631584373aab",
+      "recording_time_seconds": 20
+    }
+  ],
+  "companion_documents": [
+    "docs/presentation/Maya-Group-62-Presenter-Script.md",
+    "docs/demo/TRANSCRIPT.md",
+    "docs/demo/Maya-Action-Walkthrough-English.srt",
+    "docs/MAYA-CURRENT-PROJECT-STATUS.md"
+  ],
+  "external_links": [
+    {
+      "kind": "google_case_study",
+      "title": "Maya AI — Product and AI Architecture Case Study",
+      "url": "https://docs.google.com/document/d/1fGPJMIXbeUL_AbEIdcTK5cko1oQyKI-Q-SUkE5TjQ3I/edit?usp=sharing",
+      "last_modified_utc": "2026-09-12T20:11:57.755Z",
+      "observed_permission": "anyone:reader",
+      "content_role": "broader design reference, not current implementation status",
+      "changed_in_this_update": false
+    },
+    {
+      "kind": "google_drive_final_demo",
+      "title": "Maya-AI-Action-Walkthrough-Jenny-v2.mp4",
+      "url": "https://drive.google.com/file/d/1ZPV1fXbu57OIT5IvDuibPqoZ0_IiEKDy/view?usp=sharing",
+      "last_modified_utc": "2026-09-17T02:36:48.166Z",
+      "reported_bytes": 14275366,
+      "observed_permission": "anyone:reader",
+      "changed_in_this_update": false
+    }
+  ],
+  "privacy": {
+    "credentials_or_recovery_keys_added": false,
+    "private_corpus_or_database_added": false,
+    "raw_runtime_logs_added": false,
+    "google_sharing_permissions_changed": false
+  }
+}

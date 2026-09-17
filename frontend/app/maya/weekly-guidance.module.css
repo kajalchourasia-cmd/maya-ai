@@ -1,0 +1,228 @@
+.metrics{max-width:1400px;margin:0 auto 30px;padding:0 24px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.fact{margin-top:22px;padding:18px 20px;border-radius:16px;background:#f7f3ed;border:1px solid #ebe2d9;text-align:left}
+.fact>span{font-size:10px;letter-spacing:.12em;color:#856778;font-weight:700}
+.fact h3{font:500 20px/1.3 Georgia,serif;color:#503f46;margin:7px 0}
+.fact p{font-size:13px;line-height:1.65;color:#685d62;margin:6px 0}
+.fact>small{font-size:11px;color:#786c73}
+.fact .sources{margin-top:9px}
+.sources>a{display:block;font-size:12px;line-height:1.6}
+.metrics article:nth-child(3){background:#f0f6fa;border-color:#dce8ef}
+.metrics article:nth-child(3)>svg,.metrics article:nth-child(3)>span{color:#526f83}
+.metrics .sources{margin-top:auto;width:100%}
+.metrics h2{overflow-wrap:anywhere}
+@media(min-width:601px) and (max-width:1100px){.metrics{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+:global(html[data-maya-theme=purple]) .fact{background:#30243c;border-color:#4e3d5f}
+:global(html[data-maya-theme=purple]) .fact :is(h3,span){color:#f1e6fa}
+:global(html[data-maya-theme=purple]) .fact :is(p,small){color:#c2b4d0}
+:global(html[data-maya-theme=purple]) .metrics article{background:#251c32;border-color:#4e3d5f}
+:global(html[data-maya-theme=purple]) .metrics article:first-child{background:linear-gradient(135deg,#38253e,#291d34)}
+:global(html[data-maya-theme=purple]) .metrics article:last-child{background:linear-gradient(135deg,#243137,#202831)}
+:global(html[data-maya-theme=purple]) .metrics article>svg{color:#d4b5ee}
+:global(html[data-maya-theme=purple]) .metrics article>span{color:#c4a6d9}
+:global(html[data-maya-theme=purple]) .metrics :is(p,b){color:#c9b9d5}
+:global(html[data-maya-theme=purple]) .metrics :is(a,button){color:#dabcf4}
+:global(html[data-maya-theme=purple]) .card{background:#251c32;border-color:#4e3d5f}
+:global(html[data-maya-theme=purple]) .card.context{background:#37283d;border-color:#8b6b98}
+:global(html[data-maya-theme=purple]) :is(.metrics h2,.card h3,.journeyNote b){color:#f3edf8}
+:global(html[data-maya-theme=purple]) :is(.card p,.points,.basis,.footnote,.referenceNote,.sources small,.journeyNote p){color:#c2b4d0}
+:global(html[data-maya-theme=purple]) :is(.reference,.sources,.sources a){color:#dbbaf5}
+:global(html[data-maya-theme=purple]) .reference small{color:#c2b4d0}
+:global(html[data-maya-theme=purple]) .foods{background:#24332f}
+:global(html[data-maya-theme=purple]) .foods :is(h4,ul,li){color:#c5dfcf}
+:global(html[data-maya-theme=purple]) .card .basis{border-color:#4e3d5f}
+:global(html[data-maya-theme=purple]) .notice{background:#3d2e29;color:#f2cfaf}
+:global(html[data-maya-theme=purple]) .trimesterStages>div{background:#462c42;color:#f1d4e3}
+:global(html[data-maya-theme=purple]) .trimesterStages>div:nth-child(2){background:#413629}
+:global(html[data-maya-theme=purple]) .trimesterStages>div:nth-child(3){background:#253b34}
+:global(html[data-maya-theme=purple]) .trimesterStages small{color:#d5c5d8}
+:global(html[data-maya-theme=purple]) :is(.journeyLine,.progressTrack){background:#4b3a59}
+:global(html[data-maya-theme=purple]) .weekMarker{border-color:#231b30;background:#d2b2f2;color:#23132f}
+:global(html[data-maya-theme=purple]) .weekMarker>span{color:#d1b8e3}
+:global(html[data-maya-theme=purple]) .weekDots i{background:#655471}
+:global(html[data-maya-theme=purple]) .weekDots i[data-state=past]{background:#b3a182}
+:global(html[data-maya-theme=purple]) .weekDots i[data-state=current]{background:#e4c2ff}
+:global(html[data-maya-theme=purple]) .journeyNote{background:#30243c}
+:global(html[data-maya-theme=purple]) .journeyNote>i{background:#493354;color:#dbbaf0}
+:global(html[data-maya-theme=purple]) :is(.progressLabels,.journey>small){color:#c2b4d0}
+:global(.dash-nav)+.metrics{margin-top:24px}
+.metrics article{padding:26px;border:1px solid #e9dedf;border-radius:22px;background:#fffdfa;display:flex;flex-direction:column;align-items:flex-start}
+.metrics article:first-child{background:#f6e8e8}.metrics article:last-child{background:#edf1eb}
+.metrics article>svg{width:24px;height:24px;color:#9e5869;margin-bottom:18px}
+.metrics article>span{font-size:11px;letter-spacing:.13em;color:#7d646c;font-weight:700}
+.metrics h2{font:500 29px/1.2 Georgia,serif;color:#493841;margin:12px 0}
+.metrics b{font-size:14px;color:#725964}.metrics p{font-size:14px;line-height:1.6;color:#74666b;margin:6px 0 15px}
+.metrics a,.metrics button{margin-top:auto;display:flex;gap:8px;align-items:center;font-size:12px;font-weight:600;color:#86566a;background:none;border:0;padding:0;cursor:pointer;text-decoration:none}
+.metrics a svg,.metrics button svg{width:14px;height:14px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:#fffefb;border:1px solid #e7dfda;border-radius:20px;padding:24px;min-width:0;display:flex;flex-direction:column}
+.card.context{background:#fff3e8;border-color:#e6cbb5;grid-column:1/-1}
+.card h3{font:500 25px/1.3 Georgia,serif;color:#503f46;margin:0 0 12px}
+.card p{font-size:14px;line-height:1.65;color:#685d62;margin:8px 0}
+.reference{font:600 28px/1.25 Georgia,serif;color:#8c5264;margin:0 0 10px}.reference small{font:500 10px/1.5 "Segoe UI Variable",sans-serif;display:block;text-transform:uppercase;letter-spacing:.1em;margin-top:5px;color:#8b757d}
+.foods{margin:12px 0;padding:15px;background:#f3f5ee;border-radius:12px}.foods h4{font-size:12px;margin:0 0 8px;color:#53614d}.foods ul,.points{margin:0;padding-left:18px;font-size:14px;line-height:1.65;color:#596052}.foods li+li,.points li+li{margin-top:7px}.points{color:#685d62;margin:12px 0}
+.card .basis{font-size:12px;color:#7e7076;padding-top:12px;border-top:1px solid #eee7e1}
+.sources{margin-top:auto;padding-top:14px;font-size:12px;color:#886576}.sources summary{cursor:pointer;font-weight:600}.sources ul{list-style:none;padding:0;margin:10px 0 0}.sources li+li{margin-top:12px}.sources a{color:#80586b;text-decoration:underline;text-underline-offset:3px}.sources small{display:block;font-size:11px;line-height:1.5;color:#85747b;margin-top:4px}
+.referenceNote,.footnote{font-size:13px;line-height:1.65;color:#7e6c74;margin:0 0 20px}.footnote{margin:20px 0}.notice{padding:18px;background:#fff3e7;border-radius:14px;color:#735d4e;font-size:14px;line-height:1.6;margin-bottom:20px}
+.progressTrack{margin:32px 0 10px;background:#eee6df;height:12px;border-radius:20px;position:relative;overflow:hidden}.progressTrack>span{display:block;background:#e98c6c;height:100%;border-radius:20px;transition:width .25s}.progressTrack>i{position:absolute;top:0;height:100%;background:repeating-linear-gradient(45deg,#eeb197,#eeb197 4px,#f7d9ca 4px,#f7d9ca 8px)}
+.progressLabels{display:flex;justify-content:space-between;font-size:11px;color:#8a737a}.journey>small{font-size:11px;color:#907e85}.journey>p{line-height:1.7}
+.pregnancyJourney{min-width:0}
+.pregnancyJourney>header h2{line-height:1.2}
+.trimesterStages{display:grid;grid-template-columns:13fr 14fr 13fr;gap:5px;margin-top:18px}
+.trimesterStages>div{min-width:0;padding:15px;border-radius:14px;background:#fae8e5;color:#40383d}
+.trimesterStages>div:nth-child(2){background:#f7f0d7}
+.trimesterStages>div:nth-child(3){background:#e4f0e3}
+.trimesterStages b{display:block;font-size:12px;font-weight:650;line-height:1.4}
+.trimesterStages small{display:block;margin-top:4px;font-size:11px;color:#756b72;line-height:1.4}
+.journeyTimeline{margin:28px 8px 0}
+.journeyLine{position:relative;height:4px;border-radius:5px;background:#eae2e6}
+.journeyFill{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#dc8f87 0%,#d4b955 54%,#7fa975 100%)}
+.journeyRange{position:absolute;top:-3px;height:10px;border-radius:5px;background:repeating-linear-gradient(45deg,#b1c5a6,#b1c5a6 4px,#e5ebd8 4px,#e5ebd8 8px)}
+.weekMarker{position:absolute;top:50%;z-index:1;transform:translate(-50%,-50%);width:36px;height:36px;border:5px solid #fff;border-radius:50%;display:grid;place-items:center;background:#30292e;color:#fff;box-shadow:0 5px 16px #38213f26;font-size:12px;line-height:1;font-style:normal}
+.weekMarker>span{position:absolute;top:39px;left:50%;transform:translateX(-50%);color:#776571;font-size:9px;font-weight:700;letter-spacing:.07em;white-space:nowrap}
+.rangeMarker{width:64px;border-radius:22px}
+.weekDots{position:relative;height:5px;margin-top:47px}
+.weekDots i{position:absolute;width:3px;height:3px;transform:translateX(-50%);border-radius:50%;background:#ddd6da}
+.weekDots i[data-state=past]{background:#a8a07c}
+.weekDots i[data-state=range]{background:#899d7f;width:4px;height:4px}
+.weekDots i[data-state=current]{background:#38213f;transform:translateX(-50%) scale(1.8)}
+.journeyNote{margin-top:42px;padding:17px;border-radius:15px;display:flex;align-items:center;gap:13px;background:#f5f4f2}
+.journeyNote>i{width:39px;height:39px;flex-shrink:0;border-radius:12px;display:grid;place-items:center;background:#ebe7e8;color:#795f69}
+.journeyNote svg{width:18px;height:18px}
+.journeyNote p{margin:0;color:#776c77;font-size:12px;line-height:1.6}
+.journeyNote b{display:block;color:#3a293f;font-size:13px;font-weight:650}
+@media(max-width:600px){.pregnancyJourney>header h2{font-size:25px}.trimesterStages>div{padding:12px 8px}.trimesterStages b{font-size:11px}.trimesterStages small{font-size:10px}.journeyNote{padding:14px;gap:10px}}
+@media(min-width:1448px){.metrics{padding:0}}
+@media(max-width:850px){.metrics{grid-template-columns:1fr;gap:12px}.metrics article{padding:22px}.grid{grid-template-columns:1fr}.card.context{grid-column:auto}.metrics h2{font-size:26px}.card{padding:20px}}
+.factSource { margin-top: 8px; font-size: 11px; color: #746c72; }
+.factSource summary { font-size: 11px; font-weight: 400; letter-spacing: 0; }
+.metrics article:nth-child(2){background:#fffdfa;border-color:#e9dedf}
+.metrics article:nth-child(2)>svg,.metrics article:nth-child(2)>button{color:#86566a}
+.factLabel{display:flex;align-items:center;gap:8px}
+.factLabel svg{width:14px;height:14px;flex-shrink:0}
+.pregnancyJourney>.fact{margin-top:20px;background:#f5f2f4;border-color:#ece5e9}
+.hormones{margin-top:24px;color:#655a65}
+.hormoneHeading{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.hormoneHeading b{font-size:13px;font-weight:600}
+.hormoneHeading>span{font-size:11px;white-space:nowrap;color:#8b7280}
+.hormoneLegend{display:flex;gap:15px;flex-wrap:wrap;margin-top:16px}
+.hormoneLegend>span{display:flex;align-items:center;gap:5px;font-size:10px}
+.hormoneLegend i{width:6px;height:6px;border-radius:50%}
+.hormoneChart>svg{width:100%;height:auto;display:block;margin-top:6px}
+.hormoneBand{fill:#f1edf7}
+.phaseLabels{display:grid;grid-template-columns:13fr 14fr 13fr;gap:6px;margin-top:8px}
+.phaseLabels>span{padding:10px 4px;text-align:center;border-radius:9px;background:#f1eff0;color:#938b92;font-size:10px}
+.phaseLabels>span[data-active=true]{background:#f5ecd4;color:#79642f;font-weight:650}
+.hormones .hormoneCaption{font-size:10px;line-height:1.6;color:#897c84;margin:12px 0 0}
+.hormoneCaption a{color:inherit;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
+.hormoneHeading .hormoneLegend{margin:0;gap:10px;justify-content:flex-end}
+.hormoneHeading .hormoneLegend span{font-size:9px}
+.hormoneHeading b{font:600 16px/1.4 "Segoe UI Variable",sans-serif}
+.chartReadout{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10px;margin-top:18px;color:#887381}
+.chartReadout output{font-variant-numeric:tabular-nums;color:#704c60;background:#f5edf1;padding:5px 9px;border-radius:8px}
+.hormoneChart>svg{cursor:crosshair;background:linear-gradient(180deg,#fcf9fb,transparent);border-radius:14px}
+.weekExplorer{position:relative;margin:6px 18px 0;height:40px}
+.weekExplorer input{display:block;width:100%;height:4px;margin:0;accent-color:#795168;cursor:ew-resize;appearance:none;background:linear-gradient(90deg,#e8c7d3 0 33.3%,#dcd0e9 33.3% 69.2%,#b9cdbb 69.2%);border-radius:10px}
+.weekExplorer input::-webkit-slider-thumb{appearance:none;width:18px;height:18px;border:4px solid white;background:#785368;border-radius:50%;box-shadow:0 2px 7px #50304333}
+.weekExplorer input::-moz-range-thumb{width:12px;height:12px;border:4px solid white;background:#785368;border-radius:50%}
+.weekExplorer input:focus-visible{outline:2px solid #795168;outline-offset:7px}
+.weekScale{position:relative;margin-top:13px;font-size:10px;color:#877580}
+.weekScale span{position:absolute;transform:translateX(-50%)}
+.currentWeek{position:absolute;top:41px;transform:translateX(-50%);font-size:10px;color:#6e4d61;border:0;border-radius:20px;background:#f4edf1;padding:6px 10px;white-space:nowrap;cursor:pointer}
+.currentWeek:before{content:"";display:inline-block;width:5px;height:5px;background:#947487;border-radius:50%;margin-right:6px;vertical-align:middle}
+.phaseLabels{margin-top:0;gap:0}
+.phaseLabels>span{background:transparent;border-radius:0;padding:7px 3px;border-bottom:2px solid #e9e5e8;color:#989098}
+.phaseLabels>span[data-active=true]{background:transparent;border-color:#b69b79;color:#785b40}
+.hormoneEducation{margin-top:17px}
+.hormoneEducation>div{display:flex;gap:5px;flex-wrap:wrap}
+.hormoneEducation button{padding:5px 9px;background:transparent;border:1px solid transparent;border-radius:20px;font-size:10px;color:#887580;cursor:pointer}
+.hormoneEducation button[aria-pressed=true]{background:#f2eaef;border-color:#e8dbe3;color:#704b63}
+.hormoneEducation p{min-height:40px;margin:10px 0 4px;font-size:12px;line-height:1.6;color:#6d616a}
+.hormoneEducation small{font-size:10px;color:#8d8189}
+.pregnancyJourney>.hormoneCaption{font-size:10px;line-height:1.6;color:#8b7c86;margin:12px 1px 0}
+.srOnly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.guidanceHeading{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.guidanceHeading>i{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:12px;background:#f1e9ee;color:#98637e}
+.guidanceHeading svg{height:18px;width:18px}
+.guidanceHeading h3{font:600 19px/1.35 "Segoe UI Variable",sans-serif;margin:0}
+.grid{gap:16px;align-items:start}
+.card{padding:23px;border-color:#ebe5e8;box-shadow:0 4px 18px #50304003}
+.card:nth-child(3n+2) .guidanceHeading>i{background:#edf2eb;color:#6d8467}
+.card:nth-child(3n) .guidanceHeading>i{background:#f0edf6;color:#86769e}
+.reference{font:600 26px/1.3 "Segoe UI Variable",sans-serif;margin:0;padding:0 0 12px}
+.card .foods{background:#f6f8f3;border-radius:10px;padding:14px 16px;margin:14px 0}
+.foods ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+.foods li,.foods li+li{margin:0;padding:5px 9px;border:1px solid #e3e9df;border-radius:7px;background:#fff;font-size:12px}
+.points{padding-left:17px;margin:10px 0}
+.card .sources{border-top:1px solid #efe9ed;margin-top:14px;padding-top:12px}
+:global(html[data-maya-theme=purple]) .hormoneEducation p{color:#d2c2d8}
+:global(html[data-maya-theme=purple]) .hormoneEducation button[aria-pressed=true],:global(html[data-maya-theme=purple]) .currentWeek,:global(html[data-maya-theme=purple]) .chartReadout output{background:#443249;color:#e7d3e5}
+:global(html[data-maya-theme=purple]) .hormoneChart>svg{background:linear-gradient(180deg,#312436,transparent)}
+:global(html[data-maya-theme=purple]) .foods li{background:#29372c;border-color:#435a45;color:#deeadb}
+@media(max-width:480px){.hormoneHeading{align-items:center}.hormoneHeading .hormoneLegend{gap:7px}.hormoneHeading .hormoneLegend span{font-size:8px}.card{padding:19px}.chartReadout{font-size:9px}}
+:global(html[data-maya-theme=purple]) .metrics article:nth-child(2){background:#393126;border-color:#65553c}
+:global(html[data-maya-theme=purple]) .metrics article:nth-child(2)>svg,:global(html[data-maya-theme=purple]) .metrics article:nth-child(2)>button{color:#e6cc82}
+:global(html[data-maya-theme=purple]) .pregnancyJourney>.fact{background:#30243c;border-color:#4e3d5f}
+:global(html[data-maya-theme=purple]) .hormones{color:#d5c4db}
+:global(html[data-maya-theme=purple]) .hormoneBand{fill:#352b42}
+:global(html[data-maya-theme=purple]) .phaseLabels>span{background:#302936;color:#a398ac}
+:global(html[data-maya-theme=purple]) .phaseLabels>span[data-active=true]{background:#483d2c;color:#ebd39b}
+:global(html[data-maya-theme=purple]) .hormones .hormoneCaption,:global(html[data-maya-theme=purple]) .hormoneHeading>span{color:#baacc7}
+.hormones{margin-top:0}
+.journeyChartHeader{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 16px;align-items:center;margin-bottom:12px}
+.journeyEyebrow{font-size:10px;font-weight:650;letter-spacing:.13em;color:#877a84}
+.journeyChartHeader h2{font:500 22px/1.3 Georgia,serif;color:#503f46;margin:0;grid-column:1/-1}
+.journeyChartHeader .chartHint{grid-column:1;grid-row:3;margin:0}
+.journeyChartHeader .hormoneLegend{grid-column:2;grid-row:3}
+.exploringLabel{font-family:inherit;font-size:11px;font-weight:750;letter-spacing:0;text-transform:none;color:#886576;text-align:right;font-variant-numeric:tabular-nums;background:#f7f2f4;border:0;border-radius:999px;padding:7px 10px;justify-self:end}
+.chartHint{font-size:11px;line-height:1.5;color:#897985;margin:0 0 4px}
+.hormoneChart{position:relative}
+.hormoneTooltip{position:absolute;z-index:1;left:8px;top:0;max-width:calc(100% - 16px);display:flex;align-items:center;gap:7px;box-sizing:border-box;padding:8px 10px;border:1px solid #eadfe8;border-radius:8px;background:#fffdfef2;box-shadow:0 3px 12px #5030430d;font:11px/1.4 "Segoe UI",sans-serif;color:#6f5367;pointer-events:none}
+.hormoneTooltip i{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.hormoneLegend>button{display:flex;align-items:center;gap:5px;padding:3px 0;border:0;background:transparent;color:inherit;cursor:pointer;font:500 9px/1.4 "Segoe UI",sans-serif}
+.hormoneLegend>button:focus-visible{outline:2px solid #9a7294;outline-offset:3px;border-radius:3px}
+:global(html[data-maya-theme=purple]) :is(.exploringLabel,.hormoneTooltip){background:#352b42;border-color:#4e3d5f;color:#dfcce6}
+:global(html[data-maya-theme=purple]) .chartHint{color:#baacc7}
+.journeyChartHeader .hormoneLegend{margin:0;gap:9px;justify-content:flex-end;align-items:center}
+.journeyChartHeader .hormoneLegend :is(b,span){font:500 9px/1.4 "Segoe UI",sans-serif}
+.journeyChartHeader .hormoneLegend b{color:#716472}
+.rangeNote{font-size:10px;color:#887381;margin:0}
+.timelineWeek{position:absolute;transform:translateX(-50%);top:-4px;padding:3px 6px;border:0;border-radius:5px;background:#eee5f2;color:#765382;font:650 10px/1.4 "Segoe UI",sans-serif;cursor:pointer}
+.hormoneGuide{margin:8px 0 0;border:1px solid #eee7ee;background:#fcfafd;border-radius:12px;padding:11px 14px}
+.hormoneGuide summary{font-size:11px;font-weight:600;color:#806980;cursor:pointer}
+.hormoneGuide summary>span{float:right;font-size:10px;color:#968594;font-weight:400}
+.hormoneGuide>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:13px}
+.hormoneGuide section>b{font-size:11px;color:#795d79}
+.hormoneGuide section>p{font-size:11px;line-height:1.55;margin:5px 0;color:#80747e}
+.hormoneGuide>small{display:block;font-size:10px;margin-top:10px;color:#8d8189}
+.nutritionGroup{margin:28px 0 34px}
+.nutritionGroup>header{margin-bottom:16px;border-bottom:1px solid #eae3e8;padding-bottom:14px}
+.nutritionGroup>header h3{font:500 23px/1.3 Georgia,serif;color:#674f61;margin:0 0 6px}
+.nutritionGroup>header p{font-size:12px;color:#887480;margin:0;line-height:1.6}
+.nutritionGroup .grid{align-items:stretch}
+.nutritionGroup .card .sources{margin-top:auto}
+.nutritionGroup .card.context{grid-column:auto;background:#fcf8fb;border-color:#eadfe7}
+.nutritionGroup .card:last-child:nth-child(odd){grid-column:1/-1}
+:global(html[data-maya-theme=purple]) :is(.hormoneGuide,.timelineWeek){background:#352b42;border-color:#4e3d5f;color:#dfcce6}
+:global(html[data-maya-theme=purple]) :is(.journeyChartHeader h2,.hormoneGuide section>b,.nutritionGroup>header h3){color:#eadced}
+:global(html[data-maya-theme=purple]) :is(.hormoneGuide section>p,.exploringLabel,.journeyChartHeader .hormoneLegend b){color:#cbb6d0}
+:global(html[data-maya-theme=purple]) .nutritionGroup .card.context{background:#30243c;border-color:#4e3d5f}
+@media(max-width:1100px){.journeyChartHeader{column-gap:10px}.journeyChartHeader h2{font-size:21px}.journeyChartHeader .hormoneLegend{gap:6px}}
+.nutrientSummary{padding:18px 0 10px;margin:4px 0 20px;border-top:1px solid #eee7eb;border-bottom:1px solid #eee7eb}
+.nutrientSummary>header{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:12px}
+.nutrientSummary>header b{font-size:14px;color:#675261}
+.nutrientSummary>header span,.nutrientSummary>p{font-size:11px;line-height:1.5;color:#7e7079}
+.nutrientRail{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 1px 10px;scrollbar-width:thin;scrollbar-color:#d6c6d1 transparent}
+.nutrientRail>a{flex:1 0 120px;min-width:0;scroll-snap-align:start;text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;gap:7px;padding:14px 12px;border-radius:14px;border:1px solid #e9e0e6;background:#fbf7f9;color:#685060}
+.nutrientRail>a:nth-child(2n){background:#f6f8f2;border-color:#e4e8db;color:#5b7055}
+.nutrientRail>a:last-child{background:#f1f7fa;border-color:#dfeaf0;color:#516e80}
+.nutrientRail i{display:grid;place-items:center;width:24px;height:24px;border-radius:8px;background:#ffffffa6}
+.nutrientRail svg{width:14px;height:14px}
+.nutrientRail span{font-size:11px;font-weight:650}
+.nutrientRail strong{font:600 16px/1.4 "Segoe UI",sans-serif}
+.nutrientRail small{font-size:9px;margin-top:auto}
+.nutrientRail:focus-visible,.nutrientRail>a:focus-visible{outline:2px solid #946c84;outline-offset:2px}
+.card[id]{scroll-margin-top:100px}
+:global(html[data-maya-theme=purple]) .nutrientRail>a{background:#302936;border-color:#4e3d5f;color:#e0cede}
+:global(html[data-maya-theme=purple]) .nutrientRail i{background:#403449}
+:global(html[data-maya-theme=purple]) .nutrientSummary :is(b,p,header span){color:#cbb6d0}
+@media(max-width:600px){.journeyChartHeader{grid-template-columns:1fr;gap:8px}.journeyChartHeader>*{grid-column:1}.exploringLabel{text-align:left;grid-row:3;justify-self:start}.journeyChartHeader h2{grid-row:2}.journeyEyebrow{grid-row:1}.journeyChartHeader .chartHint{grid-row:4}.journeyChartHeader .hormoneLegend{justify-content:flex-start;grid-row:5;grid-column:1}.hormoneGuide>div{grid-template-columns:repeat(2,minmax(0,1fr))}.hormoneGuide summary>span{display:none}.nutrientSummary>header{display:block}.nutrientSummary>header span{display:block;margin-top:4px}}

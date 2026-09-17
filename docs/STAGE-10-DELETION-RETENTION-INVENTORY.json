@@ -1,0 +1,101 @@
+{
+  "external_retention": {
+    "notifications": "external delivery is disabled; no email, SMS, or push artifact is created",
+    "real_clinician_records": "not implemented",
+    "storage_objects": "not deleted by SQL; existing Storage API deletion must complete first"
+  },
+  "objects": [
+    {
+      "data": "saved plan lifecycle and user edits",
+      "disposition": "workspace cascade",
+      "object": "public.plans",
+      "retained_after_reset": false
+    },
+    {
+      "data": "validated plan items",
+      "disposition": "plan/workspace cascade",
+      "object": "public.plan_items",
+      "retained_after_reset": false
+    },
+    {
+      "data": "plan dependency ledger",
+      "disposition": "plan cascade",
+      "object": "private.stage10_plan_dependencies",
+      "retained_after_reset": false
+    },
+    {
+      "data": "plan transition ledger",
+      "disposition": "plan cascade",
+      "object": "private.stage10_plan_lifecycle_events",
+      "retained_after_reset": false
+    },
+    {
+      "data": "fact decision and provenance ledger",
+      "disposition": "explicit pre-delete removal inside workspace transaction",
+      "object": "private.stage10_fact_decisions",
+      "retained_after_reset": false
+    },
+    {
+      "data": "confirmed facts and supersession links",
+      "disposition": "supersession links cleared, then workspace cascade",
+      "object": "public.health_facts",
+      "retained_after_reset": false
+    },
+    {
+      "data": "extracted candidates and decisions",
+      "disposition": "document/workspace cascade after private decision removal",
+      "object": "public.document_facts",
+      "retained_after_reset": false
+    },
+    {
+      "data": "idempotency result and redacted trace",
+      "disposition": "workspace cascade",
+      "object": "private.stage10_commit_log",
+      "retained_after_reset": false
+    },
+    {
+      "data": "in-app follow-up and reminder consent",
+      "disposition": "workspace cascade",
+      "object": "public.follow_up_tasks",
+      "retained_after_reset": false
+    },
+    {
+      "data": "simulated review packet and status",
+      "disposition": "workspace cascade",
+      "object": "public.human_review_cases",
+      "retained_after_reset": false
+    },
+    {
+      "data": "workspace causal nodes",
+      "disposition": "workspace cascade",
+      "object": "public.graph_nodes",
+      "retained_after_reset": false
+    },
+    {
+      "data": "workspace causal edges",
+      "disposition": "workspace/node cascade",
+      "object": "public.graph_edges",
+      "retained_after_reset": false
+    },
+    {
+      "data": "workspace state/cache version",
+      "disposition": "workspace cascade",
+      "object": "public.personal_retrieval_versions",
+      "retained_after_reset": false
+    }
+  ],
+  "schema_version": "10.0.0",
+  "verification": {
+    "fixture_cleanup_zero_required": true,
+    "orphan_checks_required": true,
+    "two_principals": true,
+    "workspace_a_removed": true,
+    "workspace_b_unchanged": true
+  },
+  "workspace_reset_boundary": {
+    "authorization": "existing owner-only workspace DELETE policy or controlled local fixture administrator",
+    "pre_delete_trigger": "private.stage10_prepare_workspace_delete",
+    "recreated_workspace_behavior": "a new workspace UUID creates a new idempotency scope; old results cannot replay",
+    "storage_precondition": "Storage objects must be deleted through the Storage API before database workspace deletion"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": "nestline-consolidated-improvement-verification-v1",
+  "verified_at": "2026-09-12T23:56:58.8393446+05:30",
+  "base_commit": "796c05cd29a055188e86685990078709fca0bfbc",
+  "branch": "fix/consolidated-stages-0-8-and-10-improvements",
+  "scope": {
+    "stage9_ui_modified": false,
+    "remote_push_performed": true,
+    "human_approval_invented": false,
+    "published_profiles": 0,
+    "deployment_performed": false,
+    "remote_migration_applied": false,
+    "remote_target_branch": "integration/capstone-demo-final"
+  },
+  "python": {
+    "content_review_ready": {
+      "profiles": 63,
+      "published_profiles": 0,
+      "valid": true
+    },
+    "content_authoring": {
+      "spans": 55,
+      "profiles": 63,
+      "fragments": 56,
+      "valid": true,
+      "sources": 31
+    },
+    "compileall": "pass",
+    "diff_check": "pass",
+    "journey": {
+      "passed": 26,
+      "total": 26
+    },
+    "contract_evals": {
+      "passed": 64,
+      "total": 64
+    },
+    "secret_hygiene": {
+      "env_ignored": true,
+      "valid": true,
+      "files_scanned": 450,
+      "findings": 0
+    },
+    "unit_tests": {
+      "passed": 514,
+      "total": 514
+    }
+  },
+  "stages": {
+    "stage6": {
+      "urgent_zero_generation_passed": 35,
+      "ambiguous_stopped_total": 21,
+      "unsafe_reassurance": 0,
+      "critical_passed": 61,
+      "passed": 65,
+      "ambiguous_stopped_passed": 21,
+      "critical_total": 61,
+      "urgent_zero_generation_total": 35,
+      "specification_status": "draft",
+      "total": 65
+    },
+    "stage1": {
+      "anchors": 55,
+      "review_decisions": 54,
+      "candidates": 55,
+      "errors": 0,
+      "governed_blocks": 72,
+      "source_runs": 14
+    },
+    "stage8": {
+      "critical_total": 57,
+      "urgent_composition_calls": 0,
+      "passed": 69,
+      "maximum_repairs": 1,
+      "maximum_retries": 1,
+      "total": 69,
+      "critical_passed": 57
+    },
+    "stage4": {
+      "canonical_documents": 8,
+      "explicit_abstentions": 6,
+      "fact_candidates": 33,
+      "prompt_injection_cases": 1
+    },
+    "stage10": {
+      "direct_table_writes": 0,
+      "capstone_story_runs_passed": 9,
+      "critical_passed": 13,
+      "capstone_story_runs_total": 9,
+      "external_actions": 0,
+      "passed": 33,
+      "critical_total": 13,
+      "ui_boundary_checks": 7,
+      "total": 33
+    },
+    "stage5": {
+      "citation_precision": {
+        "denominator": 18,
+        "numerator": 18
+      },
+      "recall_at_5": {
+        "denominator": 18,
+        "numerator": 18
+      },
+      "forbidden_decoys": 0,
+      "paraphrase": {
+        "passed": 12,
+        "total": 12
+      },
+      "development": {
+        "passed": 28,
+        "total": 28
+      },
+      "rectification_matrix": {
+        "passed": 212,
+        "total": 212
+      }
+    },
+    "stage7": {
+      "critical_total": 64,
+      "agents": 8,
+      "urgent_zero_generation_passed": 5,
+      "urgent_zero_generation_total": 5,
+      "passed": 76,
+      "total": 76,
+      "critical_passed": 64
+    }
+  },
+  "database": {
+    "stage4_to_current": {
+      "upgrade": "pass"
+    },
+    "migration_manifest": {
+      "passed": 17,
+      "total": 17
+    },
+    "stage3_to_current": {
+      "authenticated_api_assertions": "110/110",
+      "pgtap_files": "8/8",
+      "upgrade": "pass",
+      "lint_errors": 0,
+      "authenticated_api_checkers": "6/6",
+      "pgtap_assertions": "325/325"
+    },
+    "clean_replay": {
+      "authenticated_api_assertions": "110/110",
+      "pgtap_files": "8/8",
+      "upgrade": "pass",
+      "lint_errors": 0,
+      "authenticated_api_checkers": "6/6",
+      "pgtap_assertions": "325/325"
+    },
+    "stage9_to_current": {
+      "authenticated_api_assertions": "110/110",
+      "pgtap_files": "8/8",
+      "upgrade": "pass",
+      "lint_errors": 0,
+      "authenticated_api_checkers": "6/6",
+      "pgtap_assertions": "325/325"
+    }
+  },
+  "providers": {
+    "openai": {
+      "provider_called_cases": "0/6",
+      "cost_usd": 0,
+      "stage8_displayed": "0/8",
+      "observed_failure": "HTTP 429 insufficient credits at benchmark time",
+      "provider": "openai",
+      "completed_cases": "2/8",
+      "selected": false,
+      "manual_tone_pending": "8/8",
+      "model": "gpt-5.4-mini",
+      "constraint_boundary_violations": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "xai": {
+      "cost_usd": 0.020862,
+      "stage8_displayed": "4/8",
+      "citation_support": "6/8",
+      "provider": "xai",
+      "completed_cases": "6/8",
+      "selected": false,
+      "manual_tone_pending": "8/8",
+      "model": "grok-4.6",
+      "constraint_boundary_violations": 0,
+      "input_tokens": 6405,
+      "output_tokens": 2366
+    }
+  },
+  "generated": {
+    "service_journeys": "17/17",
+    "required_artifacts": "20/20",
+    "evaluation_datasets": 12,
+    "capabilities": 21,
+    "evaluation_cases": 446,
+    "stage9_immutable_files": "30/30",
+    "stage9_immutability_schema": "stage9-ui-immutability-v2"
+  },
+  "ci": {
+    "initial_head": "13ab7a41008c198fa9677586c0a73e31f17a396a",
+    "workflow_run": "https://github.com/kajalchourasia-cmd/nestline/actions/runs/34711771806",
+    "validate": "failed_cross_platform_raw_hash_then_corrected_locally",
+    "supabase_integration": "passed",
+    "correction": "stage9-ui-immutability-v2-normalized-text-hash",
+    "final_exact_commit_checks": "recorded_in_task_response"
+  }
+}

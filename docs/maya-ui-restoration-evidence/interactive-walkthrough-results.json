@@ -1,0 +1,156 @@
+{
+  "schema_version": "maya-ui-restoration-walkthrough-v1",
+  "mode": "fictional_product_preview",
+  "real_medical_data_used": false,
+  "base_url": "http://127.0.0.1:5173",
+  "api_url": "http://127.0.0.1:8011",
+  "cases": {
+    "passed": 19,
+    "failed": 0,
+    "total": 19
+  },
+  "results": [
+    {
+      "id": "pregnancy-exact-week",
+      "passed": true,
+      "evidence": "Week 26 and governed small-cabbage comparison rendered"
+    },
+    {
+      "id": "pregnancy-navigation",
+      "passed": true,
+      "evidence": "All pregnancy dashboard sections visible"
+    },
+    {
+      "id": "complete-week-library",
+      "passed": true,
+      "evidence": "41/41 week controls rendered"
+    },
+    {
+      "id": "rounded-comparison-sequence",
+      "passed": true,
+      "evidence": "Rounded and repeated later-week sequence visible"
+    },
+    {
+      "id": "allergy-aware-plan",
+      "passed": true,
+      "evidence": "Sample allergy visibly propagated into validated plan"
+    },
+    {
+      "id": "connected-plan",
+      "passed": true,
+      "evidence": "Plan built through API and remains unsaved"
+    },
+    {
+      "id": "suggested-question-fidelity",
+      "passed": true,
+      "evidence": "Displayed suggestion submitted verbatim"
+    },
+    {
+      "id": "routine-chat-validation",
+      "passed": true,
+      "evidence": "Supported routine request rendered validated provenance and applied constraint"
+    },
+    {
+      "id": "ambiguous-symptom-block",
+      "passed": true,
+      "evidence": "Ambiguous current symptom blocked for clarification"
+    },
+    {
+      "id": "urgent-zero-generation",
+      "passed": true,
+      "evidence": "Unique fixed urgent route displayed with zero ordinary generation"
+    },
+    {
+      "id": "month-range-no-guess",
+      "passed": true,
+      "evidence": "Month 6 remained an approximate week range"
+    },
+    {
+      "id": "due-date-resolution",
+      "passed": true,
+      "evidence": "Due date resolved deterministically to an exact week near 20"
+    },
+    {
+      "id": "postpartum-surface",
+      "passed": true,
+      "evidence": "Postpartum recovery, nourishment, feeding and wellbeing rendered"
+    },
+    {
+      "id": "postpartum-comparison-suppression",
+      "passed": true,
+      "evidence": "No pregnancy comparison rendered postpartum"
+    },
+    {
+      "id": "backend-restart-recovery",
+      "passed": true,
+      "evidence": "Fictional context recovered after actual in-memory backend restart"
+    },
+    {
+      "id": "api-failure-retry",
+      "passed": true,
+      "evidence": "Visible API error recovered through Retry after service restart"
+    },
+    {
+      "id": "responsive-desktop",
+      "passed": true,
+      "evidence": "Desktop principal views captured at 1440x960"
+    },
+    {
+      "id": "responsive-mobile",
+      "passed": true,
+      "evidence": "No page-level horizontal overflow at an exact 390x844 emulated viewport",
+      "landing": {
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "dashboard": {
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "keyboard-focus",
+      "passed": true,
+      "evidence": "Keyboard focus visibly reached and activated the primary journey action",
+      "focus_sequence": [
+        {
+          "label": "Maya home",
+          "tag": "button",
+          "focus_visible": true,
+          "outline_width": "3px"
+        },
+        {
+          "label": "Ask Maya",
+          "tag": "button",
+          "focus_visible": true,
+          "outline_width": "3px"
+        },
+        {
+          "label": "Begin my journey",
+          "tag": "button",
+          "focus_visible": true,
+          "outline_width": "3px"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "docs/maya-ui-restoration-evidence/01-landing-desktop.png",
+    "docs/maya-ui-restoration-evidence/02-pregnancy-dashboard-week-26.png",
+    "docs/maya-ui-restoration-evidence/03-week-library-desktop.png",
+    "docs/maya-ui-restoration-evidence/04-validated-plan-desktop.png",
+    "docs/maya-ui-restoration-evidence/05-ask-maya-validated-answer.png",
+    "docs/maya-ui-restoration-evidence/06-urgent-safety-bypass.png",
+    "docs/maya-ui-restoration-evidence/07-month-range-dashboard.png",
+    "docs/maya-ui-restoration-evidence/08-postpartum-dashboard-desktop.png",
+    "docs/maya-ui-restoration-evidence/09-api-recovery-success.png",
+    "docs/maya-ui-restoration-evidence/10-landing-mobile.png",
+    "docs/maya-ui-restoration-evidence/11-pregnancy-dashboard-mobile.png",
+    "docs/maya-ui-restoration-evidence/12-onboarding-desktop.png"
+  ],
+  "limitations": [
+    "Automated Chrome walkthrough is engineering evidence, not usability research or clinical validation.",
+    "Layout and focus checks do not claim WCAG conformance.",
+    "Real uploads, Personal Mode, durable React persistence, live providers and deployment remain unavailable."
+  ]
+}

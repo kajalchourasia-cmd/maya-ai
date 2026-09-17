@@ -1,0 +1,119 @@
+INFO:     Started server process [10292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51193 - "GET /docs HTTP/1.1" 200 OK
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:5173
+- Network:       http://192.168.0.101:5173
+✓ Ready in 914ms
+✓ Running next.config.ts took 74ms
+
+ GET / 200 in 785ms (next.js: 449ms, application-code: 335ms)
+ GET / 200 in 75ms (next.js: 8ms, application-code: 67ms)
+ GET / 200 in 145ms (next.js: 9ms, application-code: 136ms)
+INFO:     127.0.0.1:62842 - "OPTIONS /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62842 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62842 - "OPTIONS /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/home/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62842 - "POST /v1/demo/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62842 - "OPTIONS /v1/demo/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/chat HTTP/1.1" 200 OK
+ GET / 200 in 61ms (next.js: 7ms, application-code: 54ms)
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/session/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/23474636-0fe2-45b9-918e-961145ea2656 HTTP/1.1" 200 OK
+ GET / 200 in 98ms (next.js: 6ms, application-code: 92ms)
+INFO:     127.0.0.1:60498 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/home/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+ GET / 200 in 82ms (next.js: 6ms, application-code: 77ms)
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/session/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/c6b21f53-0801-478e-be12-b5cfe40b6a46 HTTP/1.1" 200 OK
+ GET / 200 in 107ms (next.js: 11ms, application-code: 96ms)
+INFO:     127.0.0.1:60498 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/home/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/home/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+ GET / 200 in 128ms (next.js: 12ms, application-code: 116ms)
+INFO:     127.0.0.1:60498 - "OPTIONS /v1/demo/session/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /v1/demo/session/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/f8f767f2-c75c-48ed-9899-e1b0516e40b6 HTTP/1.1" 200 OK
+ GET / 200 in 190ms (next.js: 11ms, application-code: 179ms)
+INFO:     127.0.0.1:63364 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "OPTIONS /v1/demo/home/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+ GET / 200 in 79ms (next.js: 6ms, application-code: 73ms)
+INFO:     127.0.0.1:63364 - "OPTIONS /v1/demo/session/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/session/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/session/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/9d5bc58e-680e-4ada-b542-66048d1bea82 HTTP/1.1" 200 OK
+ GET / 200 in 79ms (next.js: 7ms, application-code: 72ms)
+INFO:     127.0.0.1:63364 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "OPTIONS /v1/demo/home/cf0fe58d-1b74-4bcf-b8b9-5deba4c35078 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63364 - "GET /v1/demo/home/cf0fe58d-1b74-4bcf-b8b9-5deba4c35078 HTTP/1.1" 200 OK
+INFO:     Started server process [8148]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51264 - "GET /docs HTTP/1.1" 200 OK
+ GET / 200 in 44ms (next.js: 4ms, application-code: 40ms)
+INFO:     127.0.0.1:53392 - "OPTIONS /v1/demo/session/cf0fe58d-1b74-4bcf-b8b9-5deba4c35078 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "GET /v1/demo/session/cf0fe58d-1b74-4bcf-b8b9-5deba4c35078 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53392 - "GET /v1/demo/session/cf0fe58d-1b74-4bcf-b8b9-5deba4c35078 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53392 - "POST /v1/demo/onboarding HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49795 - "POST /v1/demo/onboarding HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53392 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49795 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49795 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49795 - "OPTIONS /v1/demo/home/e1ac8c68-dded-4de1-842d-62b79692a50e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "OPTIONS /v1/demo/home/7f16770b-11a5-4cfc-b60c-f5f7ccfcdd20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49795 - "GET /v1/demo/home/7f16770b-11a5-4cfc-b60c-f5f7ccfcdd20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "GET /v1/demo/home/e1ac8c68-dded-4de1-842d-62b79692a50e HTTP/1.1" 200 OK
+INFO:     Started server process [28320]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55494 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "POST /v1/demo/plan HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54602 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "OPTIONS /v1/demo/home/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "POST /v1/demo/plan HTTP/1.1" 200 OK
+ GET / 200 in 54ms (next.js: 6ms, application-code: 48ms)
+INFO:     127.0.0.1:54602 - "OPTIONS /v1/demo/session/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/session/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/session/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/0af127d7-1000-4b7f-9b32-bb9b5f9450f6 HTTP/1.1" 200 OK
+ GET / 200 in 135ms (next.js: 6ms, application-code: 129ms)
+INFO:     127.0.0.1:54602 - "POST /v1/demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "POST /v1/demo/onboarding HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "OPTIONS /v1/demo/home/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+ GET / 200 in 79ms (next.js: 6ms, application-code: 73ms)
+INFO:     127.0.0.1:54602 - "OPTIONS /v1/demo/session/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/session/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/session/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /v1/demo/home/b3c3fa81-cccc-4aa7-8c27-ca00d1dee7d3 HTTP/1.1" 200 OK
+ GET / 200 in 71ms (next.js: 5ms, application-code: 65ms)
+INFO:     127.0.0.1:54602 - "POST /v1/demo/session HTTP/1.1" 200 OK

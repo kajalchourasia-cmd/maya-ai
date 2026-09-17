@@ -1,0 +1,140 @@
+{
+  "capabilities": [
+    {
+      "boundary": "0/63 profiles published; clinical, localisation and licence gates remain.",
+      "capability": "Content publication",
+      "evidence": "docs/STAGE-0-PUBLICATION-READINESS-SUMMARY.md",
+      "status": "requires human approval"
+    },
+    {
+      "boundary": "Promotion remains unavailable until a genuinely approved slice exists.",
+      "capability": "Governed ingestion",
+      "evidence": "docs/STAGE-1-IMPLEMENTATION.md",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Production embedding/reranking is unselected.",
+      "capability": "Retrieval and causal graph",
+      "evidence": "docs/STAGE-5-SELF-VERIFICATION-AND-STAGE-6-READINESS.md",
+      "status": "verified locally with Supabase"
+    },
+    {
+      "boundary": "Engineering routes pass; draft rule spec and reduced-movement gap block live use.",
+      "capability": "Deterministic Safety Gate",
+      "evidence": "docs/STAGE-6-SAFETY-EVAL-RESULTS.json",
+      "status": "requires human approval"
+    },
+    {
+      "boundary": "No direct durable writes.",
+      "capability": "Record Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Record-only; no prescribing.",
+      "capability": "Medication Record Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Urgent/clarification fail closed; routine symptom policy remains unavailable.",
+      "capability": "Symptom Navigation Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "requires human approval"
+    },
+    {
+      "boundary": "Public clinical content remains unapproved.",
+      "capability": "Nutrition Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "No inferred clearance.",
+      "capability": "Movement Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Crisis wording still depends on draft safety policy.",
+      "capability": "Well-being Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "In-app proposals only.",
+      "capability": "Follow-up Agent",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Drafts only until explicit Stage 10 commit.",
+      "capability": "Plan Composer / Schedule Builder",
+      "evidence": "docs/STAGE-7-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "No live semantic quality claim.",
+      "capability": "Stage 8 validation/composition",
+      "evidence": "docs/STAGE-8-EVAL-RESULTS.json",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Provider-neutral, bounded and fail-closed.",
+      "capability": "Configured-provider transport",
+      "evidence": "app/services/live_model_provider.py",
+      "status": "implemented"
+    },
+    {
+      "boundary": "xAI incomplete and tone review pending; OpenAI requests blocked by billing response.",
+      "capability": "Live provider selection",
+      "evidence": "docs/STAGE-7-LIVE-PROVIDER-BENCHMARK-AND-SELECTION-GATE.md",
+      "status": "requires human approval"
+    },
+    {
+      "boundary": "Exact-hash demo fixtures only.",
+      "capability": "Fictional document extraction",
+      "evidence": "docs/STAGE-4-IMPLEMENTATION.md",
+      "status": "verified with fixtures"
+    },
+    {
+      "boundary": "Scanner, privacy, retention, deletion and provider gates remain.",
+      "capability": "Production document extraction/uploads",
+      "evidence": "docs/STAGE-4-DOCUMENT-PROVIDER-BENCHMARK-PLAN.md",
+      "status": "not implemented"
+    },
+    {
+      "boundary": "Local two-principal verification only; no deployment claim.",
+      "capability": "Authenticated Personal Mode state",
+      "evidence": "docs/STAGE-10-IMPLEMENTATION-SELF-VERIFICATION-AND-CAPSTONE-READINESS.md",
+      "status": "verified locally with Supabase"
+    },
+    {
+      "boundary": "Only authorized write boundary.",
+      "capability": "State Committer",
+      "evidence": "docs/STAGE-10-CHECK-RESULTS.json",
+      "status": "verified locally with Supabase"
+    },
+    {
+      "boundary": "Opt-in and configuration-controlled; live export not required.",
+      "capability": "Redacted tracing",
+      "evidence": "app/services/redaction.py",
+      "status": "implemented"
+    },
+    {
+      "boundary": "No remote migration, hosting, or release in this pass.",
+      "capability": "Deployment",
+      "evidence": "docs/STAGE-2-DEPLOYMENT-MIGRATION-RUNBOOK.md",
+      "status": "deployment pending"
+    }
+  ],
+  "schema_version": "nestline-capability-matrix-v1",
+  "statuses": [
+    "deployment pending",
+    "implemented",
+    "not implemented",
+    "requires human approval",
+    "requires live credentials",
+    "verified locally with Supabase",
+    "verified with fixtures"
+  ]
+}

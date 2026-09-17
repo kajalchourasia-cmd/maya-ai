@@ -1,0 +1,46 @@
+{
+  "version": "dashboard-education-2026-09-16-v2",
+  "kind": "source_linked_education",
+  "clinical_approval": null,
+  "source_checked_on": "2026-09-16",
+  "sources": {
+    "starter_activity": {"title": "ACOG: first-time pregnancy questions", "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/the-top-6-pregnancy-questions-i-hear-from-first-time-moms", "locator": "Can I exercise? Start slowly and discuss with your ob-gyn", "jurisdiction": "US general education; activity depends on individual circumstances"},
+    "mental_health": {"title": "NHS: mental health in pregnancy", "url": "https://www.nhs.uk/pregnancy/mental-health-in-pregnancy-and-after-the-birth/mental-health/", "locator": "Things you can do; Getting support", "jurisdiction": "UK general education"},
+    "sleep": {"title": "NHS: tiredness and sleep", "url": "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/", "locator": "Rest; Sleep positions; Insomnia", "jurisdiction": "UK general education"},
+    "warning_signs": {"title": "CDC: urgent maternal warning signs", "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html", "locator": "Urgent signs during pregnancy and after delivery", "jurisdiction": "US general education"},
+    "water": {"title": "ACOG: water during pregnancy", "url": "https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-water-should-i-drink-during-pregnancy", "locator": "8–12 cups (64–96 US fluid ounces) daily", "jurisdiction": "US general pregnancy guidance"},
+    "protein": {"title": "National Academies: dietary reference intakes in pregnancy", "url": "https://www.nationalacademies.org/read/12584/chapter/14", "locator": "Table B-2, Protein", "jurisdiction": "US dietary reference"},
+    "pregnancy_nutrients": {"title": "NIH: nutrition during pregnancy", "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/", "locator": "Table 1; Folate/Folic Acid; Vitamin D", "jurisdiction": "US dietary references"},
+    "diet": {"title": "NHS: a healthy diet in pregnancy", "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/", "locator": "Protein; Fruit and vegetables; Dairy", "jurisdiction": "UK general education"},
+    "iron": {"title": "NIH: iron", "url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/", "locator": "How much iron do I need?; What foods provide iron?", "jurisdiction": "US dietary reference"},
+    "calcium": {"title": "NIH: calcium", "url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/", "locator": "How much calcium do I need?; What foods provide calcium?", "jurisdiction": "US dietary reference"},
+    "b12": {"title": "NIH: vitamin B12", "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/", "locator": "What foods provide vitamin B12?; Am I getting enough?", "jurisdiction": "US general education"},
+    "food_safety": {"title": "NHS: foods to avoid in pregnancy", "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/", "locator": "Meat; Eggs; Fish; Caffeine; Fruit and vegetables; Alcohol", "jurisdiction": "UK general food safety; local egg exemptions not applied"},
+    "heartburn": {"title": "NHS: heartburn in pregnancy", "url": "https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/", "locator": "Things you can do to help", "jurisdiction": "UK general education"},
+    "nausea": {"title": "NHS: nausea and vomiting in pregnancy", "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/", "locator": "Things you can try yourself; When to get help", "jurisdiction": "UK general education"},
+    "activity": {"title": "NHS: exercising in pregnancy", "url": "https://www.nhs.uk/best-start-in-life/pregnancy/exercising-in-pregnancy/", "locator": "150 minutes per week; activities and precautions", "jurisdiction": "UK general education"},
+    "exercise": {"title": "NHS: exercise in pregnancy", "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/", "locator": "Exercise tips; Exercises to avoid; Pelvic floor exercises", "jurisdiction": "UK general education"},
+    "back_pain": {"title": "NHS: back pain in pregnancy", "url": "https://www.nhs.uk/pregnancy/common-symptoms/back-pain/", "locator": "Avoiding and easing back pain; When to get help", "jurisdiction": "UK general education"},
+    "postpartum": {"title": "NHS: keeping well after birth", "url": "https://www.nhs.uk/baby/support-and-services/keeping-fit-and-healthy-with-a-baby/", "locator": "When can I start exercising after birth?; Breastfeeding and your diet", "jurisdiction": "UK general education"},
+    "fetal_movement": {"title": "NHS: your baby's movements", "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/", "locator": "When you will feel movement; Urgent advice", "jurisdiction": "UK general education"}
+  },
+  "nutrients": [
+    {"id": "protein", "title": "Protein", "reference": "71 g / day", "basis": "US pregnancy reference, ages 14–50; an individual target depends on body size and health.", "summary": "Include a protein food at meals to support growth and tissue repair.", "source_ids": ["protein", "diet"]},
+    {"id": "iron", "title": "Iron", "reference": "27 mg / day", "basis": "US pregnancy reference; this is a total dietary intake reference, not a tablet dose.", "summary": "Iron supports oxygen transport. Pair plant sources with vitamin-C-rich foods to help absorption.", "source_ids": ["iron"]},
+    {"id": "calcium", "title": "Calcium", "reference": "1,000 mg / day", "basis": "US pregnancy reference for ages 19–50; ages 14–18: 1,300 mg / day.", "summary": "Calcium supports bones and teeth. Check calcium amounts on fortified-food labels.", "source_ids": ["calcium"]},
+    {"id": "folate", "title": "Folate", "reference": "600 mcg DFE / day", "basis": "US pregnancy reference. DFE means dietary folate equivalents; it is not the same as a folic-acid tablet dose.", "summary": "Folate supports cell division. Food sources complement, rather than replace, prescribed folic acid.", "source_ids": ["pregnancy_nutrients"]}
+  ],
+  "foods": [
+    {"id": "lentils", "label": "Cooked lentils / dal", "tags": ["lentil", "legume"], "nutrients": ["protein", "iron", "folate"], "source_ids": ["diet", "iron", "pregnancy_nutrients"]},
+    {"id": "chickpeas", "label": "Cooked chickpeas / chana", "tags": ["chickpea", "legume"], "nutrients": ["protein", "iron", "folate"], "source_ids": ["diet", "iron", "pregnancy_nutrients"]},
+    {"id": "kidney_beans", "label": "Thoroughly cooked kidney beans / rajma", "tags": ["bean", "legume"], "nutrients": ["protein", "iron", "folate"], "source_ids": ["diet", "iron", "pregnancy_nutrients"]},
+    {"id": "tofu", "label": "Calcium-set tofu", "tags": ["soy", "legume"], "nutrients": ["protein", "calcium"], "source_ids": ["diet", "calcium"]},
+    {"id": "yogurt", "label": "Pasteurised plain yogurt / curd", "tags": ["dairy", "animal"], "nutrients": ["protein", "calcium"], "source_ids": ["diet", "calcium"]},
+    {"id": "milk", "label": "Pasteurised milk", "tags": ["dairy", "animal"], "nutrients": ["protein", "calcium"], "source_ids": ["diet", "calcium"]},
+    {"id": "egg", "label": "Eggs cooked until firm", "tags": ["egg", "animal"], "nutrients": ["protein"], "source_ids": ["diet", "food_safety"]},
+    {"id": "chicken", "label": "Thoroughly cooked chicken", "tags": ["meat", "animal", "chicken"], "nutrients": ["protein", "iron"], "source_ids": ["diet", "iron", "food_safety"]},
+    {"id": "broccoli", "label": "Washed, cooked broccoli", "tags": ["broccoli"], "nutrients": ["calcium", "folate"], "source_ids": ["calcium", "pregnancy_nutrients"]},
+    {"id": "greens", "label": "Washed, cooked leafy greens", "tags": ["greens", "spinach"], "nutrients": ["iron", "folate"], "source_ids": ["iron", "pregnancy_nutrients"]},
+    {"id": "cereal", "label": "Fortified cereal (check ingredients and nutrients)", "tags": ["wheat", "gluten", "packaged"], "nutrients": ["iron", "folate"], "source_ids": ["iron", "pregnancy_nutrients"]}
+  ]
+}

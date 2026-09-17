@@ -1,0 +1,3 @@
+-r requirements.txt
+# Run pytest-style regressions and the legacy unittest suite together.
+pytest==9.1.1

@@ -1,0 +1,411 @@
+{
+  "by_domain": {
+    "authorization": {
+      "passed": 3,
+      "total": 3
+    },
+    "concurrency": {
+      "passed": 1,
+      "total": 1
+    },
+    "constraint_validation": {
+      "passed": 2,
+      "total": 2
+    },
+    "contract": {
+      "passed": 7,
+      "total": 7
+    },
+    "fact_confirmation": {
+      "passed": 3,
+      "total": 3
+    },
+    "follow_up": {
+      "passed": 3,
+      "total": 3
+    },
+    "idempotency": {
+      "passed": 1,
+      "total": 1
+    },
+    "plan_lifecycle": {
+      "passed": 6,
+      "total": 6
+    },
+    "privacy": {
+      "passed": 1,
+      "total": 1
+    },
+    "simulated_review": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "capstone_story_runs": {
+    "passed": 9,
+    "total": 9
+  },
+  "case_results": [
+    {
+      "case_id": "active_confirmed_constraint_dependency_cannot_be_omitted",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 2.8107,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "atomic_rollback_on_invalid_plan_transition",
+      "critical": true,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 1.7315,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "chat_or_agent_cannot_form_direct_write",
+      "critical": true,
+      "details": [],
+      "domain": "authorization",
+      "expected": "pass",
+      "latency_ms": 0.2909,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "confirm_fact_requires_exact_source_provenance",
+      "critical": true,
+      "details": [],
+      "domain": "fact_confirmation",
+      "expected": "pass",
+      "latency_ms": 0.7117,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "confirmed_fact_personalizes_only_after_commit",
+      "critical": false,
+      "details": [],
+      "domain": "fact_confirmation",
+      "expected": "pass",
+      "latency_ms": 0.8252,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "correction_preserves_candidate_and_corrected_value",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 0.6832,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "correction_supersession_invalidates_old_material_dependency",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 2.4674,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "cross_workspace_owner_is_rejected_without_write",
+      "critical": true,
+      "details": [],
+      "domain": "authorization",
+      "expected": "pass",
+      "latency_ms": 0.4284,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "external_reminder_is_truthfully_unavailable",
+      "critical": false,
+      "details": [],
+      "domain": "follow_up",
+      "expected": "pass",
+      "latency_ms": 0.7121,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "full_plan_review_save_activate_lifecycle",
+      "critical": false,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 2.8374,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "generated_plan_cannot_claim_failed_validation",
+      "critical": false,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 0.3212,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "idempotency_key_cannot_represent_different_payload",
+      "critical": false,
+      "details": [],
+      "domain": "idempotency",
+      "expected": "pass",
+      "latency_ms": 0.7665,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "idempotent_retry_does_not_duplicate_fact",
+      "critical": false,
+      "details": [],
+      "domain": "fact_confirmation",
+      "expected": "pass",
+      "latency_ms": 0.826,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "in_app_follow_up_has_exact_consent_metadata",
+      "critical": false,
+      "details": [],
+      "domain": "follow_up",
+      "expected": "pass",
+      "latency_ms": 0.7302,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "plan_item_medication_language_requires_record_only",
+      "critical": true,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 0.3116,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "rejected_write_has_redacted_audit",
+      "critical": false,
+      "details": [],
+      "domain": "privacy",
+      "expected": "pass",
+      "latency_ms": 0.5013,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "rejection_never_personalizes",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 0.6554,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "relevant_fact_stales_only_matching_plan",
+      "critical": true,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 2.5509,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "reminder_without_exact_fields_fails_schema",
+      "critical": false,
+      "details": [],
+      "domain": "follow_up",
+      "expected": "pass",
+      "latency_ms": 0.1869,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "review_cannot_include_unrelated_personal_data_flag",
+      "critical": false,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 0.2147,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "review_requires_consent_before_queue",
+      "critical": false,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 1.1164,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "review_valid_state_machine_and_simulated_response",
+      "critical": false,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 2.4854,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "simulated_review_packet_is_minimized_and_truthful",
+      "critical": false,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 0.6852,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "stale_concurrent_write_returns_current_version",
+      "critical": true,
+      "details": [],
+      "domain": "concurrency",
+      "expected": "pass",
+      "latency_ms": 0.8916,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "stale_plan_cannot_be_saved",
+      "critical": true,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 1.9541,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "supabase_snapshot_network_failure_is_recoverable",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 1.078,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "unrelated_fact_does_not_stale_plan",
+      "critical": true,
+      "details": [],
+      "domain": "plan_lifecycle",
+      "expected": "pass",
+      "latency_ms": 1.5726,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "unresolved_conflict_cannot_be_confirmed",
+      "critical": true,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 0.5446,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "urgent_review_occurs_after_zero_generation_safety",
+      "critical": true,
+      "details": [],
+      "domain": "simulated_review",
+      "expected": "pass",
+      "latency_ms": 0.6819,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "user_edit_must_match_persisted_validated_item",
+      "critical": false,
+      "details": [],
+      "domain": "contract",
+      "expected": "pass",
+      "latency_ms": 0.3468,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "user_edited_allergen_exclusion_remains_save_eligible",
+      "critical": true,
+      "details": [],
+      "domain": "constraint_validation",
+      "expected": "pass",
+      "latency_ms": 1.3378,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "user_edited_allergen_item_is_rejected_before_save",
+      "critical": true,
+      "details": [],
+      "domain": "constraint_validation",
+      "expected": "pass",
+      "latency_ms": 1.8201,
+      "observed": "pass",
+      "passed": true
+    },
+    {
+      "case_id": "workspace_and_owner_are_not_command_fields",
+      "critical": false,
+      "details": [],
+      "domain": "authorization",
+      "expected": "pass",
+      "latency_ms": 0.3458,
+      "observed": "pass",
+      "passed": true
+    }
+  ],
+  "cases": {
+    "passed": 33,
+    "total": 33
+  },
+  "clinical_validation": false,
+  "critical_cases": {
+    "passed": 13,
+    "total": 13
+  },
+  "dataset": "visible deterministic Stage 10 development set; sealed final holdout not accessed",
+  "external_transmissions": 0,
+  "failures": [],
+  "fixture_only": true,
+  "latency_ms": {
+    "maximum": 2.8374,
+    "mean": 1.0734,
+    "samples": 33
+  },
+  "limitations": [
+    "Deterministic fictional fixtures do not prove production concurrency, retrieval, clinical, or usability quality.",
+    "Live provider benchmarks and the sealed final holdout were not run.",
+    "External notifications and real clinician review remain unavailable by design."
+  ],
+  "schema_version": "10.0.0",
+  "stage": 10,
+  "unauthorized_writes": 0,
+  "urgent_zero_generation": {
+    "passed": 9,
+    "total": 9
+  },
+  "valid": true
+}

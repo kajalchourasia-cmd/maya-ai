@@ -1,0 +1,14 @@
+# Snapshot hashes must survive Windows/Linux checkouts without newline conversion.
+*.json text eol=lf
+*.jsonl text eol=lf
+*.py text eol=lf
+*.sql text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.pdf binary
+
+# Preserve reviewer-supplied Markdown evidence byte-for-byte. Two trailing spaces
+# are intentional Markdown line breaks in the original review documents.
+docs/reviews/*.md -text whitespace=-blank-at-eol

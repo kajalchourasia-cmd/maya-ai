@@ -1,0 +1,27 @@
+{
+  "authorization_reference": "user-authorized-live-provider-benchmark-2026-09-12",
+  "citation_support_passed_cases": 2,
+  "completed_cases": 2,
+  "constraint_boundary_violations": 0,
+  "dataset_version": "stage7-live-provider-fictional-v1",
+  "estimated_cost_usd": 0.0,
+  "input_tokens": 0,
+  "latency_median_ms": 0.04780000017490238,
+  "latency_p95_ms": 0.0656000001981738,
+  "limitations": [
+    "A completed benchmark compares this named provider/model only on the named frozen dataset.",
+    "Automated validation does not replace the separate human tone or clinical review.",
+    "Provider/structured-output failures are failed cases, not counted as safety-constraint escapes when no draft was displayed."
+  ],
+  "manual_tone_reviews_pending": 8,
+  "model_id": "gpt-5.4-mini",
+  "output_tokens": 0,
+  "paid_calls_made": false,
+  "provider_id": "openai",
+  "retries": 0,
+  "schema_version": "stage7-8-provider-benchmark-v1",
+  "stage8_passed_cases": 0,
+  "status": "completed",
+  "timeouts": 0,
+  "total_cases": 8
+}

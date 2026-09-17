@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "migrations": [
+    {
+      "path": "supabase\\migrations\\20260911000900_stage3_onboarding_commit.sql",
+      "sha256": "388933d4661148e34e42cebe6b9984ed858dfbaa84a78cddd680ab7b6fa03531"
+    },
+    {
+      "path": "supabase\\migrations\\20260911001000_stage3_exit_hardening.sql",
+      "sha256": "e5b63e2e5a3b7ce4fb6f14ca8149d50339793761f91162e75bc1cdd5ebc4f2fe"
+    }
+  ],
+  "journey_evaluations": {
+    "total": 26,
+    "passed": 26,
+    "dataset_sha256": "014467ded8a974034f0fcf15e1d39682cdcd16f7dff52e9afb8034dd89353996"
+  },
+  "remote_project": null,
+  "remote_verified_at": null,
+  "remote_checks": null,
+  "errors": []
+}
